@@ -9,13 +9,6 @@ Milestone 2 is anticipated to include the following tasks:
 - Task 2
 - Task 3
 
-## Milestone 3
-
-Milestone 3 is expected to cover additional aspects of the project, including:
-- Task A
-- Task B
-- Task C
-
 We will update this README and add relevant documents as we progress through the project and start working on Milestone 2 and Milestone 3.
 
 Feel free to add any notes or additional information as needed.
