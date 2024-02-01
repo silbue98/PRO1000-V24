@@ -1,6 +1,6 @@
 # Milestone 1
 
-This folder contains files and documents related to Milestone 1 of our project. As of now, we haven't started work on these milestones.
+This folder contains files and documents related to Milestone 1 of our project.
 
 ## Milestone 1
 
