@@ -43,7 +43,7 @@ Ambiguity: No.
 Measurability: Yes.
 Verifiability: Yes.
 
-5.)Location Information:
+5.) Location Information:
 
 Clarity: Clear.
 Consistency: Yes.
@@ -52,7 +52,7 @@ Ambiguity: No.
 Measurability: Yes.
 Verifiability: Yes.
 
-6.)Testimonials and Reviews:
+6.) Testimonials and Reviews:
 
 Clarity: Clear.
 Consistency: Yes.
