@@ -11,7 +11,7 @@ Milestone 1 is expected to cover additional aspects of the project, including:
 - Project Layout (output of Module 2 > Exercise2 &3)
 - Product Backlog shown in Github board (output of Module 2 > Exercise 4)
 - Work Breakdown Structure (output of Module 2 > Exercise 5)
-- Gantt Chart (output of Module 3 > Exercise 2
+- Gantt Chart (output of Module 3 > Exercise 2)
 
 We will update this README and add relevant documents as we progress through the project and start working on Milestone 2 and Milestone 3.
 
