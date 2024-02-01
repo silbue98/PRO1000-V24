@@ -6,7 +6,6 @@ This folder contains files and documents related to Milestone 1 of our project.
 
 Milestone 1 is expected to cover additional aspects of the project, including:
 
-- A project management board enabled: the repository shall be public. Recommend using Trello.
 - The team registered with 3-5 team members. Establish an online public common space for the team (Github or Dropbox or Google or Onedrive, etc)
 - Project Layout (output of Module 2 > Exercise 2 & 3 )
 - Product Backlog shown in Github board (output of Module 2 > Exercise 4)
