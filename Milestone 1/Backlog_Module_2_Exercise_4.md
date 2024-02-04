@@ -44,7 +44,8 @@ Creation of pages and content that convey key information about the coworking sp
 Inclusion of images, videos, and visuals to showcase the interior and amenities.
 Integration of privacy and security measures to protect user data.
 Coordination with project stakeholders for feedback and review.
-Technologies:
+
+## Technologies:
 The project will be developed using JavaScript, HTML, CSS, PHP, and MySQL.
 
 ## Product Backlog (Kanban Board):
