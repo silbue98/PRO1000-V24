@@ -53,6 +53,10 @@ The website will be developed using the following technologies:
 - JavaScript: For interactive elements and dynamic behavior.
 - Bootstrap or similar CSS frameworks: For responsive design and layout.
 - jQuery or similar libraries: For simplified DOM manipulation and event handling.
+- PHP: As a server-side scripting language, PHP can handle dynamic content generation, form processing, database interactions, and server-side logic implementation.
+- MySQL can be used to store and manage data related to membership plans, user accounts, bookings, and other aspects of the coworking space.
+- Git: Utilize Git as a version control system to track changes, collaborate with team members, and maintain code integrity throughout the development process.
+- Security Measures: Implement security best practices such as HTTPS encryption, input validation, secure authentication mechanisms, and regular security audits to protect user data and ensure the confidentiality and integrity of the website.
 
 ## Product Backlog (Kanban Board):
 
