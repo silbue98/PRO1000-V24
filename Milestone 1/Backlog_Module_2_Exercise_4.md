@@ -35,6 +35,18 @@
 14. As a project manager, I want to collaborate with stakeholders to gather feedback and iterate on the landing page design.
 15. As a project manager, I want to ensure compliance with relevant data protection regulations in the implementation of privacy and security measures.
 
+## Scope:
+The scope of the project encompasses the design, development, and launch of the USNStart Coworking Space website. This includes, but is not limited to:
+
+Development of a responsive website accessible on desktop, tablet, and mobile devices.
+Design and layout of the website, considering the provided interior design concepts and floor plan.
+Creation of pages and content that convey key information about the coworking space, membership plans, and existing tenants.
+Inclusion of images, videos, and visuals to showcase the interior and amenities.
+Integration of privacy and security measures to protect user data.
+Coordination with project stakeholders for feedback and review.
+Technologies:
+The project will be developed using JavaScript, HTML, CSS, PHP, and MySQL.
+
 ## Product Backlog (Kanban Board):
 
 - [ ] Clear and Engaging Headline
