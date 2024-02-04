@@ -1,4 +1,4 @@
-# Xercise 4: Requirement Gathering and Analysis
+# Module 2.4: Requirement Gathering and Analysis
 
 ## Evaluation Report: Capstone Project Wishlist
 
