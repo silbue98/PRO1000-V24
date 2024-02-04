@@ -46,7 +46,12 @@ Integration of privacy and security measures to protect user data.
 Coordination with project stakeholders for feedback and review.
 
 ## Technologies:
-The project will be developed using JavaScript, HTML, CSS, PHP, and MySQL.
+The project will be developed using:
+HTML5: For structuring the content of the website.
+CSS3: For styling and layout of the website.
+JavaScript: For interactive elements and dynamic behavior.
+Bootstrap or similar CSS frameworks: For responsive design and layout.
+jQuery or similar libraries: For simplified DOM manipulation and event handling.
 
 ## Product Backlog (Kanban Board):
 
