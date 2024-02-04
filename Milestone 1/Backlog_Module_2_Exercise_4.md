@@ -46,7 +46,7 @@ Integration of privacy and security measures to protect user data.
 Coordination with project stakeholders for feedback and review.
 
 ## Technologies:
-The website will be developed using the following technologies:
+The project will be developed using the following technologies:
 
 - HTML5: For structuring the content of the website.
 - CSS3: For styling and layout of the website.
