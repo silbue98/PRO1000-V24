@@ -304,7 +304,7 @@ h3{
 
 }
 
-/* Creating the user pictures smaller / giving it a round look */
+/* Creating the user pictures smaller / giving it a round look, these bugging out on smaller screens so it needs media fix */
 .reviews-col img{
    height: 40px;
    margin-left: 5px;
