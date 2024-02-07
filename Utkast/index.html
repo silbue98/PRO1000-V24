@@ -10,25 +10,28 @@
 </head>
 <body>
     <section class="header">
-        <!-- Navigation bar -->
-        <nav>
-          <a href="index.html"><img src="./images/logo2.webp"></a>
-          <div class="nav-links" id="navLinks">
-            <i class="fa fa-times" onclick="hideMenu()"></i>
+    <!-- Navigation bar -->
+    <nav>
+        <a href="index.html"><img src="./images/logo2.webp"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <div class="nav-menu">
             <span class="nav-button"><a href="">Home</a></span>
             <span class="nav-button"><a href="">Membership Plans</a></span>
             <span class="nav-button"><a href="">Booking</a></span>
             <span class="nav-button"><a href="">About</a></span>
             <span class="nav-button"><a href="">Contact</a></span>
           </div>
-          <i class="fa fa-bars" onclick="showMenu()"></i>
-        </nav>
-        <div class="text-box">
-          <h1>USN CO Working Space.</h1>
-          <p> Innovative solutions for your working space.</p>
-          <a href="" class="hero-btn">Contact us today</a>
         </div>
-      </section>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      
+    <div class="text-box">
+      <h1>USN CO Working Space.</h1>
+      <p> Innovative solutions for your working space.</p>
+      <a href="" class="hero-btn">Contact us today</a>
+    </div>
+  </section>
 
 
         </div>
@@ -255,6 +258,15 @@
 
         <!-- Javascript code for menu on mobile -->
     <script>
+
+function showMenu() {
+  document.getElementById("navLinks").classList.add("open");
+}
+
+function hideMenu() {
+  document.getElementById("navLinks").classList.remove("open");
+}
+
         var navLinks = document.getElementById("navLinks");
         function showMenu() {
             navLinks.style.right ="0";           
