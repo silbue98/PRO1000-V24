@@ -2,6 +2,8 @@
    margin: 0;
    padding: 0;
    font-family: 'Poppins', sans-serif;
+   overflow-x: hidden; /* Hide horizontal scrollbar on larger screens */
+
 }
 
 :root{
@@ -39,7 +41,8 @@ nav img {
 
 /* Styling for navigation links */
 .nav-links {
-   text-align: right;
+   text-align: center;
+   
 }
 
 .nav-button {
@@ -521,14 +524,26 @@ h3{
    .nav-links {
       position: absolute;
       background: #f44336;
-      height: 100vh;
+      height: auto; /* Change height to auto */
       width: 200px;
       top: 0;
       right: -200px;
       text-align: left;
       z-index: 2;
       transition: 1s;
-   }
+      overflow: hidden; /* Add overflow: hidden to prevent content overflow */
+    }
+    
+    .nav-menu {
+      display: flex;
+      flex-direction: column; /* Display menu items vertically */
+      padding-top: 20px; /* Optional: Add padding for spacing */
+    }
+    
+    .nav-links.open {
+      right: 0;
+    }
+    
    nav .fa {
       display: block;
       color: #fff;
