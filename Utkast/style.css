@@ -27,7 +27,7 @@
    position: relative;
 }
 
-/* Need to fix this using overflow which is bad */
+/* Need to fix this overflow, atm screen on smaller devices are out of alignment which is bad. Just have it here currently. */
 
 body, html {
     width: 100%;
