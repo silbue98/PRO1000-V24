@@ -2,7 +2,6 @@
    margin: 0;
    padding: 0;
    font-family: 'Poppins', sans-serif;
-   overflow-x: hidden; /* Hide horizontal scrollbar on larger screens */
 
 }
 
@@ -17,6 +16,7 @@
 
 }
 
+
 /* Header styling with background image */
 .header {
    min-height: 100vh;
@@ -25,6 +25,13 @@
    background-position: center;
    background-size: cover;
    position: relative;
+}
+
+/* Need to fix this using overflow which is bad */
+
+body, html {
+    width: 100%;
+    overflow-x: hidden; /* Prevent horizontal scroll at the page level */
 }
 
 
@@ -121,11 +128,12 @@ nav .fa{
 
 
 
-.Membership {
+.membership {
    width: 80%;
    margin: auto;
    text-align: center;
    padding-top: 100px;
+   overflow-x: hidden; /* Hide horizontal scrollbar specifically for the Membership section */
 
 }
 
@@ -515,6 +523,7 @@ h3{
       margin-left: 0px;
       margin-right: 15px;
    }
+   
    .cta h1 {
       font-size: 24px;
    }
@@ -556,6 +565,7 @@ h3{
       padding: 30px;
 
    }
+   
 }
 
 
