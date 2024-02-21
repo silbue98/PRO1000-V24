@@ -23,7 +23,7 @@ As part of the design process, initial sketches were created to layout the basic
   
   Some of the gestalt laws and UX principles used:
   
-  - Law of Proximity: Elements are placed close together to indicate they are related. For example, navigation elements like "Menu" "Contact" and "About Us" etc, are grouped in the header to indicate they are part of the site's main navigation.
+  - Law of Proximity: Elements are placed close together to indicate they are related. For example, navigation elements like "Menu" "Contact" etc, are grouped in the header to indicate they are part of the site's main navigation.
   - Law of Similarity: Similar elements are perceived as more related than dissimilar ones. This can be seen in the consistent design of buttons or icons, suggesting they perform similar actions or belong to the same category of interaction.
   - Law of Closure: The mind completes incomplete shapes. In my sketches, even though the buttons or navigation elements might not be fully detailed, the viewer's mind can fill in the gaps based on their previous experiences with similar interfaces.
   - Law of Symmetry: Symmetrical elements are perceived as part of the same group and are aesthetically pleasing.
