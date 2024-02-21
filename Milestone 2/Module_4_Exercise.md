@@ -1,4 +1,4 @@
-# Milestone 2: Prototyping a Small Café's Website
+# Milestone 2.4: Prototyping a Small Café's Website
 
 ## Overview
 
