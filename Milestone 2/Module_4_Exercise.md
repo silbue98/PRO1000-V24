@@ -56,20 +56,23 @@ After completing an order, users will be automatically redirected to a feedback 
   - Compare the AI-generated prototype with the Figma prototype from Exercise 2, noting differences and potential improvements.
 
 
-    DALL-E Generated prototype link:
+### AI Prototype Insights
 
-    Differences:
-    - Navigation Placement: In the AI-generated prototype, the navigation might be more simplified, focusing on essential elements.
-    - Visual Hierarchy: Our prototype may present a more refined visual hierarchy, with elements like "Order Now" buttons standing out more prominently.
-    - Consistency: Our Figma prototype has a more consistent theme and styling that the AI-generated version might lack.
-    - Imagery and Branding: Our Figma prototype may include more brand-specific imagery and elements that reflect the café's identity. The AI prototype might be generic and could benefit from more personalized touches that align with the café's brand.
-    - Functionality: Interactive elements like the buttons we have used in the Figma prototype may be more thoughtfully placed and styled for user engagement. The AI version might require practical testing to ensure elements are not just visually appealing but also 
-      functionally effective.
-    - Feedback Mechanisms: Our Figma prototype includes elements that give users feedback, such as confirmation messages after an order is placed. Ensure the AI prototype also incorporates clear user feedback for interactions.
+View the AI-generated visual prototype and note the design choices:
 
-    Improvements:
-    - We have added a feedback system for users to test our figma prototype.
-    - We have added a order complete notifcation when the user has successfully ordered an item.
+🔗 [AI-Generated Prototype](https://dubium.no/Milestone2/DALL_E_Prompt_Exercise_1.webp)
+
+**Differences Noted**:
+- **Navigation**: The AI prototype may offer a more streamlined navigation, emphasizing core functionality over variety.
+- **Visual Hierarchy**: Contrastingly, the Figma prototype showcases a deliberate visual hierarchy, guiding users towards primary actions like placing an order.
+- **Design Consistency**: The manually designed Figma prototype displays cohesive thematic elements, which might be less pronounced in the AI version.
+- **Brand Representation**: The Figma prototype incorporates tailored branding elements that resonate with the café's unique identity, which may be absent in the generic AI-generated visuals.
+- **Interactive Dynamics**: The Figma design considers the practicality and aesthetics of interactive elements, ensuring a balance between visual appeal and user experience.
+- **User Interaction Feedback**: The Figma prototype includes explicit feedback mechanisms for user interactions, an aspect to be refined in the AI version.
+
+**Potential Enhancements**:
+- A feedback system is integrated into the Figma prototype, inviting user participation and evaluation.
+- An order completion notification has been implemented, providing clear confirmation once a transaction is successfully processed.
 
 ---
 
