@@ -12,7 +12,7 @@ For Milestone 2, we are advancing from requirement gathering to prototyping. Thi
 - **Method**: Sketch a rough layout focusing on the placement of navigation, text, images, and buttons.
 - **Reflection**: Analyze which Gestalt laws and UX principles have been applied in the prototype.
 
-## Low-Fidelity Sketches
+## Low-fidelity Sketches
 
 As part of the design process, initial sketches were created to layout the basic structure and component placement for the café's homepage. Below are the links to the sketches that served as the foundation for our high-fidelity prototyping in Figma.
 
