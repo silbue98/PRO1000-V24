@@ -69,7 +69,7 @@ View the AI-generated visual prototype and note the design choices:
 🔗 [AI-Generated Prototype](https://dubium.no/Milestone2/DALL_E_Prompt_Exercise_1.webp)
 
 **Differences Noted**:
-- **Navigation**: The AI prototype may offer a more streamlined navigation, emphasizing core functionality over variety.
+- **Navigation**: The AI prototype doesnt seem to follow a normal layout, navigation is difficult and confusing.
 - **Visual Hierarchy**: Contrastingly, the Figma prototype showcases a deliberate visual hierarchy, guiding users towards primary actions like placing an order.
 - **Design Consistency**: The manually designed Figma prototype displays cohesive thematic elements, which might be less pronounced in the AI version.
 - **Brand Representation**: The Figma prototype incorporates tailored branding elements that resonate with the café's unique identity, which may be absent in the generic AI-generated visuals.
