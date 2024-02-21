@@ -38,9 +38,9 @@ As part of the design process, initial sketches were created to layout the basic
   - Create frames for the homepage and additional pages: Menu, About Us, Contact.
   - Utilize Figma's prototyping features to link the pages, ensuring that interactive elements like the 'Menu' button navigate to the corresponding page.
   - Preview and test the prototype flow using the 'Present' feature.
-  - Added order and payment.
-  - Added order complete.
-  - Added test and survey feedback.
+  - We have implemented order and payment.
+  - We have implemented Added order complete.
+  - We have added test and survey feedback.
  
 ### Figma Prototype
 Explore the interactive prototype and experience the flow of the café's digital presence.
