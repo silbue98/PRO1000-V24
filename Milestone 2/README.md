@@ -1,6 +1,6 @@
 # Milestone 2
 
-This folder contains files and documents related to Milestone 2 of our project. As of now, we haven't uploaded these milestones.
+This folder contains files and documents related to Milestone 2 of our project. As of now, we haven't uploaded all milestones.
 
 ## Milestone 2
 
