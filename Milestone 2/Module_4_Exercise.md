@@ -46,11 +46,20 @@ For Milestone 2, we are advancing from requirement gathering to prototyping. Thi
    - Story of the café
    - Mission statement
 4. Contact
-   - Contact form
-   - Location map
-   - Social media links
+   - Contact Information
+   - Email Information
+   - Location Information
+   - Phone Information
+5. Payment Order
+  - Design a secure and user-friendly payment interface.
+  - Clear breakdown of costs before order confirmation.
+  - Order summary with details of the purchased items.
+  - Enters payment details and confirms the order.
 
----
+
+
+
+
 
 ## Prototyping Goals
 
