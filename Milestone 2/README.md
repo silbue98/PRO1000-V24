@@ -4,7 +4,7 @@ This folder contains files and documents related to Milestone 2 of our project. 
 
 ## Milestone 2
 
-Milestone 2 is anticipated to include the following tasks:
+Milestone 2 will include the following tasks:
 
 - The first prototype for your project (following example in Module 4 > Exercise 1)
 - The second prototype for your project (following example in Module 4 > Exercise 2,3)
