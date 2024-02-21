@@ -48,7 +48,7 @@ Explore the interactive prototype and experience the flow of the café's digital
 🔗 [View Figma Prototype](https://www.figma.com/file/W0gSJt9VQK4jPbEfDpLFdr/Cafe?type=design&node-id=0-1&mode=design)
 
 ### Feedback Survey
-After completing an order, users will be automatically redirected to a feedback form after a short delay, ensuring valuable customer insights are captured.
+After completing an order, users will be automatically redirected to a feedback form after a short delay, ensuring valuable user insights are captured.
 
 🔗 [Provide Feedback](https://app.formbricks.com/s/clsupqm980cg2tluwt4oouf7m)
 
