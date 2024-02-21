@@ -17,8 +17,8 @@ For Milestone 2, we are advancing from requirement gathering to prototyping. Thi
 As part of the design process, initial sketches were created to layout the basic structure and component placement for the café's homepage. Below are the links to the sketches that served as the foundation for our high-fidelity prototyping in Figma.
 
 **Sketches**:
-- [Low-Fidelity Sketch 1](https://dubium.no/Milestone2/Low_Fidelity_1.jpg)
-- [Low-Fidelity Sketch 2](https://dubium.no/Milestone2/Low_Fidelity_2.jpg)
+- [Low-fidelity Sketch 1](https://dubium.no/Milestone2/Low_Fidelity_1.jpg)
+- [Low-fidelity Sketch 2](https://dubium.no/Milestone2/Low_Fidelity_2.jpg)
 
   
   Some of the gestalt laws and UX principles used:
