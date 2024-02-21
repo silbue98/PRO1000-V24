@@ -100,7 +100,7 @@ View the AI-generated visual prototype and note the design choices:
    - Location Information
    - Phone Information
 5. Payment Order
-  - Implemented a user-friendly payment interface.
+  - User-friendly payment interface.
   - Clear breakdown of costs before order confirmation.
   - Order summary with details of the purchased items.
   - Enters payment details and confirms the order.
