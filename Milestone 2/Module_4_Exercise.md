@@ -39,7 +39,7 @@ As part of the design process, initial sketches were created to layout the basic
   - Utilize Figma's prototyping features to link the pages, ensuring that interactive elements like the 'Menu' button navigate to the corresponding page.
   - Preview and test the prototype flow using the 'Present' feature.
   - We have implemented order and payment.
-  - We have implemented Added order complete.
+  - We have implemented order complete.
   - We have added test and survey feedback.
  
 ### Figma Prototype
