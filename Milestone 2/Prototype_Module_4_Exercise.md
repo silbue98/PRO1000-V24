@@ -109,7 +109,6 @@ View the AI-generated visual prototype and note the design choices:
 
 
 
-
 ## Prototyping Goals
 
 - Establish a cohesive and engaging user experience.
