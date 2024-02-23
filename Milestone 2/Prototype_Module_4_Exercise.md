@@ -57,7 +57,7 @@ Translate the low-fidelity prototype into a high-fidelity digital version using 
 - 🔗 [View #2 USN Co Working Space HTML + CSS Layout Prototype](https://dubium.no/utkast/)
 
 
-- 🔗 [Cafe Protype as example](https://www.figma.com/file/W0gSJt9VQK4jPbEfDpLFdr)
+- 🔗 [Cafe Protoype Exercise 2.4 as example](https://www.figma.com/file/W0gSJt9VQK4jPbEfDpLFdr)
 - 🔗 [Provide Cafe Feedback](https://app.formbricks.com/s/clsupqm980cg2tluwt4oouf7m)
 
 ---
