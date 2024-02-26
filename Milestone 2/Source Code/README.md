@@ -90,6 +90,15 @@ Interactive elements are present, including a dynamic navigation bar and image h
 
 Both prototypes are optimized for performance. The HTML/CSS version, while interactive, is still on par with the Figma prototype regarding loading times.
 
+## Security Measures
+
+Our website is hosted on a platform that automatically provides a Wildcard SSL certificate from Let's Encrypt. This ensures that all data transmitted between the web server and browsers remain encrypted and secure. The SSL certificate covers multiple subdomains and offers a straightforward implementation for enhanced security. We are committed to maintaining high-security standards to protect user data and ensure safe browsing experiences.
+
+## Feedback and Security Concerns
+
+We welcome any feedback regarding the user experience and security of the website. If you have any concerns or suggestions related to security, please reach out to us. Our goal is to provide a secure and efficient digital space for all users of the USN Co Working Space.
+
+
 ## Next Steps
 
 - Implement a fully responsive design for mobile devices in the HTML/CSS prototype.
