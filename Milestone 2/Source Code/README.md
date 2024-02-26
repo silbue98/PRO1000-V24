@@ -14,8 +14,16 @@ This repository hosts #2 of our prototype layouts for the USN Co-Working Space, 
 ## Quick Start
 To explore the prototype locally:
 1. Clone the repository:
-   ```bash
+      ```bash
       git clone https://github.com/silbue98/PRO1000-V24.git
+      
+2. Navigate to the Milestone 2/Source Code directory:
+      ```bash
+     cd PRO1000-V24/Milestone\ 2/Source\ Code/
+ 
+3. Open index.html in a web browser to view the prototype.
+ 
+
 
 ## Feedback & Contributions
 
