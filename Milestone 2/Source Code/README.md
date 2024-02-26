@@ -15,7 +15,7 @@ This repository hosts the prototype layout for the USN Co-Working Space, a proje
 To explore the prototype locally:
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/usn-co-working-space-prototype.git
+      git clone https://github.com/silbue98/PRO1000-V24.git
 
 ## Feedback & Contributions
 
