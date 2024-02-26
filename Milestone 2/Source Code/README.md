@@ -1,7 +1,7 @@
 # USN Co-Working Space Website Prototype
 
 ## Introduction
-This repository hosts the prototype layout for the USN Co-Working Space, a project aimed at providing a comprehensive digital representation of a co-working environment. It features initial designs crafted using HTML, CSS, and various images to convey the essence and atmosphere of the USN Co-Working Space.
+This repository hosts one of our prototype layouts for the USN Co-Working Space, a project aimed at providing a comprehensive digital representation of a co-working environment. It features initial designs crafted using HTML, CSS, and various images to convey the essence and atmosphere of the USN Co-Working Space.
 
 ### Project Status
 **This is an ongoing project.** The prototype displayed within this repository is under development and will evolve with further design enhancements and feedback integration.
