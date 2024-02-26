@@ -21,7 +21,6 @@ To explore the prototype locally:
       ```bash
      cd PRO1000-V24/Milestone\ 2/Source\ Code/
  
-
 3. Open index.html in Git Bash On Windows:
      ```bash
     start index.html
@@ -30,11 +29,9 @@ To explore the prototype locally:
      ```bash
    xdg-open index.html
 
-5. Open index.html in Git Bash On Mac OS:
+5.   Open index.html in Git Bash On Mac OS:
       ```bash
     open index.html
- 
-
 
 ## Feedback & Contributions
 
