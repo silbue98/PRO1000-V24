@@ -30,7 +30,7 @@ To explore the prototype locally:
      ```bash
    xdg-open index.html
 
-5.   Open index.html in Git Bash On Mac OS:
+5. Open index.html in Git Bash On Mac OS:
       ```bash
     open index.html
  
