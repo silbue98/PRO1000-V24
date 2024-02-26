@@ -88,7 +88,7 @@ Interactive elements are present, including a dynamic navigation bar and image h
 
 ## Performance
 
-Both prototypes are optimized for performance. The HTML/CSS version, while interactive, is still on par with the Figma prototype regarding loading times and responsiveness.
+Both prototypes are optimized for performance. The HTML/CSS version, while interactive, is still on par with the Figma prototype regarding loading times.
 
 ## Next Steps
 
