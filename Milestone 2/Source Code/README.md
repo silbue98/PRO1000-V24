@@ -12,7 +12,7 @@ This repository hosts our #2 prototype layouts for the USN Co-Working Space, a p
 - **`images/`**: Stores image files utilized across the website, including logos and visual elements.
 
 ## Quick Start
-To explore the prototype locally:
+To explore the prototype locally using Git Bash:
 1. Clone the repository:
       ```bash
       git clone https://github.com/silbue98/PRO1000-V24.git
