@@ -68,7 +68,7 @@ Currently lacks full responsiveness, particularly on mobile devices. Future iter
 Introduced a more subtle and nuanced color palette to ensure visual contrast and accessibility.
 
 ### HTML/CSS
-Plans to integrate these color adjustments are underway to align with the improved Figma prototype.
+Plans to test these color adjustments are underway to align with the Figma prototype.
 
 ## Navigation and Layout
 
