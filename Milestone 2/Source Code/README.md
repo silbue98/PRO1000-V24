@@ -21,17 +21,24 @@ To explore the prototype locally using Git Bash:
       ```bash
      cd PRO1000-V24/Milestone\ 2/Source\ Code/
  
-3. Open index.html in Git Bash on Windows:
+3. For Windows users, open index.html in Git Bash:
      ```bash
     start index.html
      
-4. Open index.html in Git Bash on Linux:
+4. For Linux users, open index.html in Git Bash:
      ```bash
    xdg-open index.html
 
-5. Open index.html in Git Bash on Mac OS:
+5. For Mac OS users, open index.html in Git Bash:
       ```bash
       open index.html
+
+## Online Prototype
+
+You can also explore the prototype online at the following URL:
+
+[View Prototype](https://dubium.no/utkast/)
+
 
 ## Feedback & Contributions
 
