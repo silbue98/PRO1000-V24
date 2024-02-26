@@ -47,3 +47,64 @@ Your insights are invaluable to us! For suggestions or contributions, please:
 - **Open an issue**: If you have ideas or notice something amiss.
 - **Submit a pull request**: If you've made improvements you'd like to share.
 
+
+# USN Co-Working Space Website Prototype Evolution
+
+## Overview
+
+Our USN Co Working Space project's prototype has undergone significant refinement from the initial Figma designs to the current HTML/CSS implementation. This document highlights the key changes, enhancements, and outstanding tasks in our prototyping journey.
+
+## Responsiveness
+
+### Figma
+Designed with adaptability in mind, ensuring seamless transitions across various devices.
+
+### HTML/CSS
+Currently lacks full responsiveness, particularly on mobile devices. Future iterations will aim to address this to match Figma's flexibility.
+
+## Visual Design
+
+### Figma
+Introduced a more subtle and nuanced color palette to ensure visual contrast and accessibility.
+
+### HTML/CSS
+Plans to integrate these color adjustments are underway to align with the improved Figma prototype.
+
+## Navigation and Layout
+
+### Figma
+Features a more intuitive navigation bar and well-spaced seating options. The inclusion of booking, payment, and order review pages enhances the user journey.
+
+### HTML/CSS
+Navigation requires rework for clarity and ease of use. Additional pages for booking, payment, and order review are in development.
+
+## Interactivity and Functionality
+
+### Figma
+Utilizes steppers for selecting the number of months for desk booking, though functionality needs further development.
+
+### HTML/CSS
+Interactive elements are present, including a dynamic navigation bar and image hovers, adding to the user engagement.
+
+## Performance
+
+Both prototypes are optimized for performance. The HTML/CSS version, while interactive, is still on par with the Figma prototype regarding loading times and responsiveness.
+
+## Next Steps
+
+- Implement a fully responsive design for mobile devices in the HTML/CSS prototype.
+- Adjust the color contrast in the HTML/CSS version to match the Figma prototype's accessibility standards.
+- Develop and integrate booking, payment, and order review functionalities that are currently demonstrated in the Figma prototype.
+- Enhance the seat selection functionality with clear visual cues and smooth transitions.
+
+## Conclusion
+
+The prototyping phase is a critical step in validating design concepts and functionality. As we transition from the Figma prototype to a functional HTML/CSS version, our priority is to maintain the integrity of design and functionality while enhancing the user experience. The Figma prototype serves as a blueprint for the aesthetic and interactive aspects we aim to achieve in the final product.
+
+The HTML/CSS prototype, although not yet at full parity with the Figma design, represents a work-in-progress towards an interactive and engaging digital space for the USN Co Working Space. The upcoming iterations will bridge the gaps identified in the current prototype, aligning closely with the refined user flow and interaction model established in the Figma designs.
+
+Through collaborative efforts and user feedback, we aspire to deliver a digital environment that not only meets the functional requirements but also provides an inviting and seamless experience for all potential users of the USN Co Working Space.
+
+We invite all stakeholders to continue providing their valuable feedback as we refine the prototype and advance towards a complete, responsive, and user-friendly website.
+
+
