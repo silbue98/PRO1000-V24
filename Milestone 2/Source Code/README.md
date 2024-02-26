@@ -8,7 +8,7 @@ This repository hosts one of our prototype layouts for the USN Co-Working Space,
 
 ## Repository Contents
 - **`index.html`**: The primary HTML file showcasing the homepage design.
-- **`styles/`**: Contains CSS files responsible for the visual styling of the prototype.
+- **`style.css`**: Contains CSS files responsible for the visual styling of the prototype.
 - **`images/`**: Stores image files utilized across the website, including logos and visual elements.
 
 ## Quick Start
