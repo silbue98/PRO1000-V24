@@ -21,7 +21,18 @@ To explore the prototype locally:
       ```bash
      cd PRO1000-V24/Milestone\ 2/Source\ Code/
  
-3. Open index.html in a web browser to view the prototype.
+
+3. Open index.html in Git Bash On Windows:
+     ```bash
+    start index.html
+     
+4. Open index.html in Git Bash On Linux:
+     ```bash
+   xdg-open index.html
+
+5.   Open index.html in Git Bash On Mac OS:
+      ```bash
+    open index.html
  
 
 
