@@ -52,12 +52,12 @@ Translate the low-fidelity prototype into a high-fidelity digital version using 
 ### Prototype and Feedback
 
 
-- 🔗 [View USN Co Working Space Figma Prototype](https://www.figma.com/file/MCyDl8eYyXbV47QmfhEE1u/USN-Co-Working-Prototype?type=design&node-id=0-1&mode=design)
+- 🔗 [View #1 USN Co Working Space Figma Prototype](https://www.figma.com/file/MCyDl8eYyXbV47QmfhEE1u/USN-Co-Working-Prototype?type=design&node-id=0-1&mode=design)
 - 🔗 [Provide USN Co Working Space Feedback](https://app.formbricks.com/s/clsyfwgwc189irolcxhxpb4r2)
 - 🔗 [View #2 USN Co Working Space HTML + CSS Layout Prototype](https://dubium.no/utkast/)
 
 
-- 🔗 [Cafe Protoype Exercise 2.4 as example](https://www.figma.com/file/W0gSJt9VQK4jPbEfDpLFdr)
+- 🔗 [Cafe Protoype #3 Exercise 2.4 as example](https://www.figma.com/file/W0gSJt9VQK4jPbEfDpLFdr)
 - 🔗 [Provide Cafe Feedback](https://app.formbricks.com/s/clsupqm980cg2tluwt4oouf7m)
 
 ---
