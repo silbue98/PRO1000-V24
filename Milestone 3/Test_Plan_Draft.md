@@ -26,7 +26,7 @@ This document outlines the comprehensive testing strategy for the USN Co-Working
 - Authenticated and unauthenticated session testing.
 
 ## Test Cases
-[Teet case 1#]
+[Test case 1#]
 [Test case 2#]
 [Test case 3#]
 
