@@ -25,10 +25,91 @@ This document outlines the comprehensive testing strategy for the USN Co-Working
 - Responsive testing on iOS and Android devices.
 - Authenticated and unauthenticated session testing.
 
-## Test Cases
-- [Test case 1#]
-- [Test case 2#]
-- [Test case 3#]
+# Test Cases for USN Co-Working Space Website
+
+## Test Case 1#: Navigation and Link Integrity
+
+**Objective:** Verify that all navigation links lead to the correct pages without any broken links.
+
+**Steps:**
+1. Click on each item in the navigation menu.
+2. Verify that each link directs to the correct page.
+
+**Expected Result:** Each navigation item should lead to the corresponding page without errors or broken links.
+
+## Test Case 2#: Booking System Functionality
+
+**Objective:** Ensure the booking system allows users to select a desk, choose a date, and submit a booking.
+
+**Steps:**
+1. Navigate to the booking page.
+2. Select a desk and choose a booking date.
+3. Submit the booking.
+
+**Expected Result:** The system should accept the booking, provide a confirmation message, and the selected desk should be marked as booked for the chosen date.
+
+## Test Case 3#: Payment Process Validation
+
+**Objective:** Validate that the payment process securely handles transactions and provides a success confirmation.
+
+**Steps:**
+1. Proceed to checkout after selecting a service.
+2. Enter payment details and submit the payment.
+
+**Expected Result:** The payment should be processed securely, with the user receiving a success message and transaction details.
+
+## Test Case 4#: User Registration and Login Process
+
+**Objective:** Ensure users can register and log in securely.
+
+**Steps:**
+1. Access the registration page.
+2. Fill in the required information and submit the registration form.
+3. Log out and attempt to log in with the registered credentials.
+
+**Expected Result:** Registration should be successful, and users should be able to log in with the registered credentials without any issues.
+
+## Test Case 5#: Desk Reservation System Feedback and Support Functions
+
+**Objective:** Verify that users can provide feedback and access support functions related to desk reservations.
+
+**Steps:**
+1. Navigate to the desk reservation feedback or support section.
+2. Attempt to provide feedback or access support.
+
+**Expected Result:** Users should be able to easily provide feedback or access support functions related to desk reservations without encountering any errors.
+
+## Test Case 6#: Mobile Responsiveness and Usability
+
+**Objective:** Ensure the website is responsive and usable on mobile devices.
+
+**Steps:**
+1. Access the website using various mobile devices (phones, tablets).
+2. Verify that all elements are displayed correctly and the website is easy to navigate.
+
+**Expected Result:** The website should adapt to different screen sizes, and all functionalities should work smoothly on mobile devices.
+
+## Test Case 7#: Performance Under Load
+
+**Objective:** Evaluate the website's performance under heavy load conditions.
+
+**Steps:**
+1. Simulate a high volume of concurrent user traffic.
+2. Monitor the website's response time and server performance.
+
+**Expected Result:** The website should maintain acceptable response times and server stability under heavy load conditions.
+
+## Test Case 8#: Security and Data Protection
+
+**Objective:** Verify that the website ensures security and protects user data.
+
+**Steps:**
+1. Attempt to access restricted areas without proper authentication.
+2. Inspect network traffic to check for encryption and secure protocols.
+3. Evaluate how user data is stored and protected.
+
+**Expected Result:** The website should enforce proper authentication and encryption, ensuring the security and protection of user data.
+
 
 ## Testing Schedule
 [Provide detailed testing phase timelines]
