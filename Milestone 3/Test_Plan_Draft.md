@@ -118,7 +118,7 @@ This document outlines the comprehensive testing strategy for the USN Co-Working
 - Activities: Test plan development, test case creation, environment setup.
 
 **Phase 2: Functional Testing**
-- Duration: 2 weeks
+- Duration: 1 week
 - Activities: Navigation and link testing, booking system testing, user registration and login testing, desk reservation feedback testing, mobile responsiveness testing.
 
 **Phase 3: Performance Testing**
