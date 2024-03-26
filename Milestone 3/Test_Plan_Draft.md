@@ -112,35 +112,71 @@ This document outlines the comprehensive testing strategy for the USN Co-Working
 
 
 ## Testing Schedule
-[Provide detailed testing phase timelines]
+
+**Phase 1: Test Planning and Preparation**
+- Duration: 1 week
+- Activities: Test plan development, test case creation, environment setup.
+
+**Phase 2: Functional Testing**
+- Duration: 2 weeks
+- Activities: Navigation and link testing, booking system testing, user registration and login testing, desk reservation feedback testing, mobile responsiveness testing.
+
+**Phase 3: Performance Testing**
+- Duration: 1 week
+- Activities: Load testing, security and data protection testing.
+
+**Phase 4: Compliance Testing**
+- Duration: 1 week
+- Activities: Cookie testing, GDPR compliance testing, privacy policy testing.
+
+**Phase 5: Bug Fixing and Regression Testing**
+- Duration: 1 week
+- Activities: Bug reporting, issue resolution, regression testing.
 
 ## Roles and Responsibilities
-[Detail team member assignments for testing activities.]
+
+- Test Lead: Oversees testing activities, ensures test plan adherence.
+- Testers: Execute test cases, report bugs.
+- Developer: Addresses reported bugs and issues.
 
 ## Deliverables
+
 - Test plan documentation.
 - Compiled test cases and scripts.
 - Bug and issue reports.
 - Comprehensive test summary report.
 
 ## Pass/Fail Criteria
-Detail specific conditions for passing or failing test items.
+
+- Pass Criteria: Test cases execute without errors, all functional requirements met, no critical security vulnerabilities found, compliance with GDPR and privacy policy regulations.
+- Fail Criteria: Execution errors, functional requirements not met, critical security vulnerabilities found, GDPR or privacy policy non-compliance.
 
 ## Risk Assessment
-Identify potential testing phase risks with mitigation strategies.
+
+**Risk:** Inadequate performance under heavy load.
+**Mitigation:** Conduct thorough performance testing and optimize server resources.
+
+**Risk:** Security vulnerabilities leading to data breaches.
+**Mitigation:** Implement robust security measures, conduct regular security audits.
 
 ## Approval
-Outline project acceptance and sign-off procedures.
 
+- Testing phase approval: Test lead reviews test results and confirms readiness for the next phase.
+- Project acceptance: Stakeholders review comprehensive test summary report and sign off on project completion.
 
-## Cookie Testing 
-- Verify that your website properly informs users about cookie use and obtains consent, aligning with GDPR requirements.
+## Cookie Testing
 
-## GDPR Compliance 
-- Ensure personal data collection, storage, and processing comply with GDPR. This includes user consent for data processing, a clear privacy policy, and the user's right to access or delete their data.
+- Verify that the website displays a clear cookie notification upon user visit and obtains consent before storing cookies, in compliance with GDPR requirements.
 
-## Privacy Policy 
-- Test the accessibility and clarity of the privacy policy, ensuring it's easily understandable and covers all aspects of data handling.
+## GDPR Compliance
 
-## Order Processing 
-- Test the security and efficiency of the order processing system, especially the handling of personal and payment information to prevent data breaches.
+- Ensure the website's data collection, storage, and processing practices align with GDPR regulations, including obtaining explicit user consent, providing a clear privacy policy, and enabling users to access or delete their data upon request.
+
+## Privacy Policy
+
+- Test the accessibility and clarity of the website's privacy policy, ensuring it covers all necessary aspects of data handling and is easily understandable for users.
+
+## Order Processing
+
+- Test the security and efficiency of the order processing system, specifically focusing on the handling of personal and payment information to prevent data breaches and ensure compliance with data protection regulations.
+
