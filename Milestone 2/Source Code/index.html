@@ -1,264 +1,445 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>USN Start</title>
-    <!-- Link to external stylesheet and fonts -->
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-</head>
-<body>
-    <section class="header">
-    <!-- Navigation bar -->
-    <nav>
-        <a href="index.html"><img src="./images/logo2.webp"></a>
-        <div class="nav-links" id="navLinks">
-          <i class="fa fa-times" onclick="hideMenu()"></i>
-          <div class="nav-menu">
-            <span class="nav-button"><a href="">Home</a></span>
-            <span class="nav-button"><a href="">Membership Plans</a></span>
-            <span class="nav-button"><a href="">Booking</a></span>
-            <span class="nav-button"><a href="">About</a></span>
-            <span class="nav-button"><a href="">Contact</a></span>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>USN Start</title>
+        <!-- Link to external stylesheet and fonts -->
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    </head>
+    <body>
+        <section class="header">
+        <!-- Navigation bar -->
+        <nav>
+          <a href="index.html"><img src="./images/logo2.webp" alt="Logo"></a>
+          <i class="fa fa-bars" onclick="showMenu()"></i> <!-- Hamburger Icon outside nav-links -->
+          <div class="nav-links" id="navLinks">
+            <div class="nav-menu">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+              <span class="nav-button"><a href="#home">Home</a></span>
+              <span class="nav-button"><a href="#membership">Membership Plans</a></span>
+              <span class="nav-button"><a href="#booking">Booking</a></span>
+              <span class="nav-button"><a href="#about">About</a></span>
+              <span class="nav-button"><a href="#contact">Contact</a></span>
+            </div>
+          </div>
+      </nav>
+        <div class="text-box">
+          <h1>USN CO Working Space.</h1>
+          <p> Innovative solutions for your working space.</p>
+          <a href="" class="hero-btn">Book your desk</a>
+        </div>
+      </section>
+               <!-- Membership Section -->
+            <section class="membership" id="membership">
+                <h1>Our Membership plans</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sunt tempore, pariatur illum quos a sint sed minus quidem laudantium officiis dolore culpa dignissimos et dicta inventore enim magni porro!</p>
+                <div class="container">
+                    <!-- Pricing options -->
+                    <h2>Choose your plan</h2>
+                    <div class="price-row">
+                        <div class="price-col">
+                             <!-- Pricing details for Day Pass -->
+                            <p>Day Pass</p>
+                            <div class="price-container">
+                                <h3>699 <span>NOK</span></h3>
+                                <span class="time-span">/ Day</span>
+                            </div>
+                            <ul>
+                                <li>24-hour access to facility.</li>
+                                <li>Access to co-working space.</li>
+                                <li>Access to our gym facilities.</li>
+                                <li>Access to secure 100gb/s WIFI.</li>
+                                <li>Access to recreational areas.</li>
+                                <li>Access to parking space.</li>
+                            </ul>
+                            <button>Add To Cart</button>
+                        </div>
+                        <div class="price-col">
+                             <!-- Pricing details for Monthly Pass -->
+                            <p>Monthly pass</p>
+                            <div class="price-container">
+                                <h3>6000 <span>NOK</span></h3>
+                                <span class="time-span">/ Month</span>
+                            </div>
+                            <ul>
+                                <li>Unlimited access to facility.</li>
+                                <li>Access to co-working area.</li>
+                                <li>Access to our gym facilities.</li>
+                                <li>Access to secure 100gb/s WIFI.</li>
+                                <li>Access to recreational areas.</li>
+                                <li>Access to parking space.</li>
+                            </ul>
+                            <button>Add To Cart</button>
+                        </div>
+                        <div class="price-col">
+                            <!-- Pricing details for Student Pass -->
+                            <p>Student pass</p>
+                            <div class="price-container">
+                                <h3>9000 <span>NOK</span></h3>
+                                <span class="time-span">/ Semester</span>
+                            </div>
+                            <ul>
+                                <li>Unlimited access to facility.</li>
+                                <li>Access to co-working area.</li>
+                                <li>Access to gym facilities.</li>
+                                <li>Access to secure 100gb/s WIFI.</li>
+                                <li>Access to recreational areas.</li>
+                                <li>Access to parking space.</li>
+                            </ul>
+                            <button>Add To Cart</button>
+                        </div>
+                        <div class="price-col">
+                            <!-- Pricing details for Annual Reserved Desk -->
+                            <p>Annual Reserved Desk</p>
+                            <div class="price-container">
+                                <h3>50,000 <span>NOK</span></h3>
+                                <span class="time-span">/ Year</span>
+                            </div>
+                            <ul>
+                                <li>Personal desk in shared office area.</li>
+                                <li>Unlimited access to facility.</li>
+                                <li>Access to co-working area.</li>
+                                <li>Access to our gym facilities.</li>
+                                <li>Access to secure 100gb/s WIFI.</li>
+                                <li>Access to recreational areas.</li>
+                                <li>Access to parking space.</li>
+                            </ul>
+                            <button>Add To Cart</button>
+                        </div> 
+                        <div class="price-col">
+                            <!-- Pricing details for Private Office Desk -->
+                            <p>Private Office Desk</p>
+                            <div class="price-container">
+                                <h3>20,000 <span>NOK</span></h3>
+                                <span class="time-span">/ Month</span>
+                            </div>
+                            <ul>
+                                <li>Personal desk in a private office.</li>
+                                <li>Unlimited access to facility.</li>
+                                <li>Access to co-working area.</li>
+                                <li>Access to our gym facilities.</li>
+                                <li>Access to secure 100gb/s WIFI.</li>
+                                <li>Access to recreational areas.</li>
+                                <li>Access to parking space.</li>
+                            </ul>
+                            <button>Add To Cart</button>
+                        </div>
+                        <div class="price-col">
+                            <!-- Pricing details for Private Office Desk -->
+                            <p>Private Office Desk</p>
+                            <div class="price-container">
+                                <h3>20,000 <span>NOK</span></h3>
+                                <span class="time-span">/ Month</span>
+                            </div>
+                            <ul>
+                                <li>Personal desk in a private office.</li>
+                                <li>Unlimited access to facility.</li>
+                                <li>Access to co-working area.</li>
+                                <li>Access to our gym facilities.</li>
+                                <li>Access to secure 100gb/s WIFI.</li>
+                                <li>Access to recreational areas.</li>
+                                <li>Access to parking space.</li>
+                            </ul>
+                            <button>Add To Cart</button>
+                        </div>
+            </section>
+    
+            <!--- facilities  -->
+            <section class="facility" id="facilities">
+                <h1>Our facilities</h1>
+                <p>
+                  At USN Co-Working Space, we offer state-of-the-art facilities designed to cater to your professional needs and enhance your working experience. Our space includes high-speed internet, modern meeting rooms equipped with video conferencing capabilities, private offices for individuals or teams, and open desk areas for flexible seating options. For your convenience, we provide on-site IT support, secure 24/7 access, and printing services. Our goal is to provide a productive and collaborative environment where you can grow your business and network with like-minded professionals</p>
+                <div class="row">
+                    <div class="facility-col">
+                        <img src="./images/overview3.webp" alt="Coworking Space Overview">
+                        <div class="layer">
+                            <h3>Coworking Space</h3>
+                        </div>
+                    </div>
+                    <div class="facility-col">
+                        <img src="./images/grouproom4.webp" alt="Picture of a grouproom">
+                        <div class="layer">
+                            <h3>Group rooms</h3>
+                        </div>
+                    </div>
+                    <div class="facility-col">
+                        <img src="./images/workspace3.webp" alt="Coworking work space 3">
+                        <div class="layer">
+                            <h3>Working areas</h3>
+                        </div>
+                    </div>
+                </div>
+    
+    
+    
+                    </section>
+    
+                    <!-- More pictures / facilties / amenities i need to fix this -->
+                    <section  class="amenities" id="amenities">
+                        <h1> Our amenities</h1>
+                        <p>Our amenities are designed to enhance productivity and relaxation, offering a balance between work and leisure. From fully-equipped workstations to recreational rooms, showers, and a gym, we cater to all aspects of our members' wellbeing. The cafe serves as a social hub, while the billiard room and cozy relaxation areas provide spaces for unwinding and networking. Our goal is to create an environment that supports our community's diverse needs, making USN Co-Working Space not just a place to work, but a place to thrive.</p>
+    
+                        <div class="row">
+                            <div class="amenities-col">
+                                <img src="./images/recreational3.webp" alt="Recreation area 1">
+                                <h3> Recreational Areas</h3>
+                                <p>Our cafe area serves as the perfect spot for a refreshing break or casual meetings, featuring an array of gourmet coffee and healthy snacks. It's a space where creativity flows, surrounded by inspiring art and comfortable seating.</p>
+    
+                            </div>
+                            <div class="amenities-col">
+                                <img src="./images/recreational2.webp" alt="Recreation area 2">
+                                <h3> Recreational Areas</h3>
+                                <p>The billiard room offers a unique blend of leisure and networking. Engage in friendly competition or unwind after hours. This area is designed to foster connections among members, making it more than just a place to play.</p>
+    
+                            </div>
+                            <div class="amenities-col">
+                                <img src="./images/recreational1.webp" alt="Recreation area 3">
+                                <h3> Recreational Areas</h3>
+                                <p>Discover our serene relaxation area, a sanctuary designed with cozy furniture and a warm atmosphere. It's the ideal setting for contemplation, reading, or simply enjoying a moment of tranquility away from your desk.</p>
+    
+                            </div>
+                        </div>
+                    </section>
+    
+                    <!-- Reviews -->
+                    <section class="reviews" id="reviews">
+                        <h1>Reviews</h1>
+                        <p>Our reviews reflect the experiences of a vibrant community that values productivity, comfort, and collaboration. Members praise the seamless integration of work and leisure facilities, highlighting the positive impact on their daily routines and overall satisfaction. From the modern, well-equipped workspaces to the diverse amenities catering to relaxation and networking, feedback consistently points to an environment conducive to both individual focus and community engagement. These testimonials underscore our commitment to creating a supportive and enriching co-working space.</p>
+                        <div class="row">
+                            <div class="reviews-col">
+                                <img src="./images/user2.webp" alt="Picture of User 1">
+                                <div>
+                                    <p>Joining USN Co-Working Space has transformed my work life. The blend of professional amenities with a warm, community vibe has made every workday something I look forward to. Whether I need a quiet corner for deep focus or a lively area to bounce ideas off fellow members, this place has it all. Their top-notch facilities, from the high-speed internet to the spacious meeting rooms, coupled with the incredible support staff, have elevated my productivity and expanded my professional network. It's more than just a workspace; it's where I've found a thriving community of innovative thinkers.</p>
+                                    <h3>Sarah Johnson</h3>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-o"></i>
+                                </div>
+    
+                            </div>
+                            <div class="reviews-col">
+                                <img src="./images/user3.webp" alt="Picture of user 3">
+                                <div>
+                                    <p>Finding USN Co-Working Space was a game-changer for me. The perfect blend of quiet work areas and vibrant communal spaces fuels my creativity and efficiency. It's not just the ergonomic workstations or the state-of-the-art conference rooms that make it stand out; it's the sense of community. The staff goes above and beyond, making everyone feel welcome and fostering a network of diverse professionals. It's not just a place to work; it's a place to grow and thrive professionally.</p>
+                                    <h3>Microsoft Sam</h3>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </section> 
+    
+                          <!-- Booking Section -->
+                          <section id="booking" class="booking-section">
+                            <h2>Book Your Seat</h2>
+                            
+                            
+                            <div class="seat-indicator-container">
+                                <div class="seat-indicator available"><span></span>Unavailable</div>
+                                <div class="seat-indicator booked"><span></span>Booked</div>
+                                <div class="seat-indicator selected"><span></span>Selected</div>
+                            </div>
+                            
+
+
+                            <div class="booking-container">
+                                <div class="all-seats"></div> <!-- Seats will be generated here -->
+                                <div class="seat-status">
+                                <div class="booking-summary">
+                                    <p>Total Seats Selected: <span class="count">0</span></p>
+                                    <p>Total Price: <span class="amount">0 NOK</span></p>
+                                    <button class="booking-btn">Book Now</button>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="date-selection">
+                        <div class="timings">
+                            <div class="dates">
+                              <input type="radio" name="date" id="d1" checked>
+                              <label for="d1" class="dates-item">
+                                <span class="day">Sun</span>
+                                <span class="date">11</span>
+                              </label>
+                              <input type="radio" id="d2" name="date">
+                              <label class="dates-item" for="d2">
+                                <span class="day">Mon</span>
+                                <span class="date">12</span>
+                              </label>
+                              <input type="radio" id="d3" name="date">
+                              <label class="dates-item" for="d3">
+                                <span class="day">Tue</span>
+                                <span class="date">13</span>
+                              </label>
+                              <input type="radio" id="d4" name="date">
+                              <label class="dates-item" for="d4">
+                                <span class="day">Wed</span>
+                                <span class="date">14</span>
+                              </label>
+                              <input type="radio" id="d5" name="date">
+                              <label class="dates-item" for="d5">
+                                <span class="day">Thu</span>
+                                <span class="date">15</span>
+                              </label>
+                              <input type="radio" id="d6" name="date">
+                              <label class="dates-item" for="d6">
+                                <span class="day">Fri</span>
+                                <span class="date">16</span>
+                              </label>
+                              <input type="radio" id="d7" name="date">
+                              <label class="dates-item" for="d7">
+                                <span class="day">Sat</span>
+                                <span class="date">17</span>
+                              </label>
+                            </div>
+                          </div>
+                    </div>
+                </section> 
+                          
+                        
+                          
+    <script>
+         // Generate seats dynamically and attach event listeners for booking functionality
+    document.addEventListener("DOMContentLoaded", function() {
+        let seats = document.querySelector(".all-seats");
+
+        // Generate seats with random booking status
+        for (let i = 0; i < 60; i++) {
+            let isBooked = Math.random() > 0.5;
+            let seatHTML = `<input type="checkbox" id="seat${i}" class="seat" ${isBooked ? "disabled" : ""}>
+                            <label for="seat${i}" class="${isBooked ? "seat booked" : "seat"}"></label>`;
+            seats.insertAdjacentHTML("beforeend", seatHTML);
+        }
+
+        // Add event listener for change on seats
+        document.querySelectorAll('.seat').forEach(seat => {
+            seat.addEventListener('change', updateSelectedSeats);
+        });
+    });
+    document.querySelectorAll('.seat:not(.booked)').forEach(seat => {
+    seat.addEventListener('click', function() {
+        this.classList.toggle('selected');
+        // Followed by updating the count and total price logic
+    });
+});
+
+    // Function to update the count and total price of selected seats
+    function updateSelectedSeats() {
+        const selectedSeats = document.querySelectorAll('.all-seats .seat:not(.booked):checked');
+        const totalSeats = selectedSeats.length;
+        const totalPrice = totalSeats * 699; // Assuming 699 is the price per seat
+
+        document.querySelector(".count").textContent = totalSeats;
+        document.querySelector(".amount").textContent = totalPrice + " NOK";
+    }
+</script>
+    
+    
+                          
+    
+                    
+                    
+
+    
+                          <!--Contact Us-->
+    
+                          <section class="contact">
+                            <div class="contact-grid">
+                                <div class="contact-info">
+                                    <h1>Contact Us</h1>
+                                    <p>We're always here to help you. Whether you have questions about our services, need support, or just want to give feedback, please don't hesitate to get in touch. Fill out the form below, and our team will get back to you as soon as possible.</p>
+                                    <img src="./images/maps1.png" alt="Our Location">
+                                </div>
+                                <div class="contact-form">
+                                    <form action="#" method="post">
+                                        <input type="text" name="name" placeholder="Your Name" required>
+                                        <input type="email" name="email" placeholder="Your Email" required>
+                                        <textarea name="message" placeholder="Your Message" required></textarea>
+                                        <button type="submit" class="submit-btn">Send Message</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </section>
+                        
+                        
+    
+                  <!-- About Us -->
+    
+      
+    
+    <section class="info-grid" id="contact-info">
+      <div class="container">
+        <div class="about-us-col">
+          <h1>About Us</h1>
+          <p>At USN Co-Working Space, we are dedicated to providing a creative and supportive environment for freelancers, entrepreneurs, and professionals. Our state-of-the-art facilities are designed to foster collaboration, productivity, and growth.</p>
+          <img src="./images/workspace1.webp" alt="About Us">
+        <h2>Contact Information</h2>
+        <div class="grid">
+          <div class="grid-item">
+            <h3>Opening Hours</h3>
+            <p>Monday - Friday: 9am to 5pm</p>
+            <p>Saturday: 10am to 2pm</p>
+            <p>Sunday: Closed</p>
+          </div>
+          <div class="grid-item">
+            <h3>Phone Number</h3>
+            <p>+123 456 7890</p>
+          </div>
+          <div class="grid-item">
+            <h3>Email Address</h3>
+            <p>contact@usncoworking.com</p>
+          </div>
+          <div class="grid-item">
+            <h3>Location</h3>
+            <p>Gullbringvegen 36, 3800 Bø</p>
           </div>
         </div>
-        <i class="fa fa-bars" onclick="showMenu()"></i>
-      </nav>
-      
-    <div class="text-box">
-      <h1>USN CO Working Space.</h1>
-      <p> Innovative solutions for your working space.</p>
-      <a href="" class="hero-btn">Contact us today</a>
-    </div>
-  </section>
-
-
-        </div>
-        </section>
-           <!-- Membership Section -->
-        <section class="membership">
-            <h1>Our Membership plans</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sunt tempore, pariatur illum quos a sint sed minus quidem laudantium officiis dolore culpa dignissimos et dicta inventore enim magni porro!</p>
-            <div class="container">
-                <!-- Pricing options -->
-                <h2>Choose your plan</h2>
-                <div class="price-row">
-                    <div class="price-col">
-                         <!-- Pricing details for Day Pass -->
-                        <p>Day Pass</p>
-                        <div class="price-container">
-                            <h3>699 <span>NOK</span></h3>
-                            <span class="time-span">/ Day</span>
+      </div>
+     </div>
+    </section> 
+    
+    
+    
+                    <!-- footer -->
+    
+                    <section class="footer">
+                      <h1>Copyright &copy; 2024 USN Co-Working Space. All rights reserved.</h1>
+                        <div class="icons">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-linkedin-in"></i>
+                            
                         </div>
-                        <ul>
-                            <li>24-hour access to facility.</li>
-                            <li>Access to co-working space.</li>
-                            <li>Access to gym facilities.</li>
-                            <li>Access to secure 100gb/s WIFI.</li>
-                            <li>Access to recreational areas.</li>
-                            <li>Access to parking space.</li>
-                        </ul>
-                        <button>Add To Cart</button>
-                    </div>
-                    <div class="price-col">
-                         <!-- Pricing details for Monthly Pass -->
-                        <p>Monthly pass</p>
-                        <div class="price-container">
-                            <h3>6000 <span>NOK</span></h3>
-                            <span class="time-span">/ Month</span>
-                        </div>
-                        <ul>
-                            <li>Unlimited access to facility.</li>
-                            <li>Access to co-working area.</li>
-                            <li>Access to gym facilities.</li>
-                            <li>Access to secure 100gb/s WIFI.</li>
-                            <li>Access to recreational areas.</li>
-                            <li>Access to parking space.</li>
-                        </ul>
-                        <button>Add To Cart</button>
-                    </div>
-                    <div class="price-col">
-                        <!-- Pricing details for Student Pass -->
-                        <p>Student pass</p>
-                        <div class="price-container">
-                            <h3>9000 <span>NOK</span></h3>
-                            <span class="time-span">/ Semester</span>
-                        </div>
-                        <ul>
-                            <li>Unlimited access to facility.</li>
-                            <li>Access to co-working area.</li>
-                            <li>Access to gym facilities.</li>
-                            <li>Access to secure 100gb/s WIFI.</li>
-                            <li>Access to recreational areas.</li>
-                            <li>Access to parking space.</li>
-                        </ul>
-                        <button>Add To Cart</button>
-                    </div>
-                    <div class="price-col">
-                        <!-- Pricing details for Annual Reserved Desk -->
-                        <p>Annual Reserved Desk</p>
-                        <div class="price-container">
-                            <h3>50,000 <span>NOK</span></h3>
-                            <span class="time-span">/ Year</span>
-                        </div>
-                        <ul>
-                            <li>Personal desk in shared office area.</li>
-                            <li>Unlimited access to facility.</li>
-                            <li>Access to co-working area.</li>
-                            <li>Access to gym facilities.</li>
-                            <li>Access to secure 100gb/s WIFI.</li>
-                            <li>Access to recreational areas.</li>
-                            <li>Access to parking space.</li>
-                        </ul>
-                        <button>Add To Cart</button>
-                    </div> 
-                    <div class="price-col">
-                        <!-- Pricing details for Private Office Desk -->
-                        <p>Private Office Desk</p>
-                        <div class="price-container">
-                            <h3>20,000 <span>NOK</span></h3>
-                            <span class="time-span">/ Month</span>
-                        </div>
-                        <ul>
-                            <li>Personal desk in a private office.</li>
-                            <li>Unlimited access to facility.</li>
-                            <li>Access to co-working area.</li>
-                            <li>Access to gym facilities.</li>
-                            <li>Access to secure 100gb/s WIFI.</li>
-                            <li>Access to recreational areas.</li>
-                            <li>Access to parking space.</li>
-                        </ul>
-                        <button>Add To Cart</button>
-                    </div>
-                </div>
-            </div>
-
-
-
-
-
-        </section>>
-
-        <!--- facilities  -->
-        <section class="facility">
-            <h1>Our facilities</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sunt tempore, pariatur illum quos a sint sed minus quidem laudantium officiis dolore culpa dignissimos et dicta inventore enim magni porro!</p>
-            <div class="row">
-                <div class="facility-col">
-                    <img src="./images/overview3.webp">
-                    <div class="layer">
-                        <h3>Coworking Space</h3>
-                    </div>
-                </div>
-                <div class="facility-col">
-                    <img src="./images/grouproom4.webp">
-                    <div class="layer">
-                        <h3>Group rooms</h3>
-                    </div>
-                </div>
-                <div class="facility-col">
-                    <img src="./images/workspace3.webp">
-                    <div class="layer">
-                        <h3>Working areas</h3>
-                    </div>
-                </div>
-            </div>
-
-
-
-                </section>
-
-                <!-- More pictures / facilties / amenities i need to fix this -->
-                <section  class="amenities">
-                    <h1> Our amenities</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sunt tempore, pariatur illum quos a sint sed minus quidem laudantium officiis dolore culpa dignissimos et dicta inventore enim magni porro!</p>
-
-                    <div class="row">
-                        <div class="amenities-col">
-                            <img src="./images/recreational3.webp">
-                            <h3> Recreational Areas</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sunt tempore, pariatur illum quos a sint sed minus quidem laudantium officiis dolore culpa dignissimos et dicta inventore enim magni porro!</p>
-
-                        </div>
-                        <div class="amenities-col">
-                            <img src="./images/recreational2.webp">
-                            <h3> Recreational Areas</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sunt tempore, pariatur illum quos a sint sed minus quidem laudantium officiis dolore culpa dignissimos et dicta inventore enim magni porro!</p>
-
-                        </div>
-                        <div class="amenities-col">
-                            <img src="./images/recreational1.webp">
-                            <h3> Recreational Areas</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sunt tempore, pariatur illum quos a sint sed minus quidem laudantium officiis dolore culpa dignissimos et dicta inventore enim magni porro!</p>
-
-                        </div>
-                    </div>
-                </section>
-
-                <!-- Reviews -->
-                <section class="reviews">
-                    <h1>Reviews</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo sunt tempore, pariatur illum quos a sint sed minus quidem laudantium officiis dolore culpa dignissimos et dicta inventore enim magni porro!</p>
-                    <div class="row">
-                        <div class="reviews-col">
-                            <img src="./images/user2.webp">
-                            <div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ducimus eligendi saepe beatae quod corrupti inventore, repudiandae autem a placeat, deserunt enim vero atque? Expedita voluptas aliquam numquam aliquid nulla!</p>
-                                <h3>Sarah Johnson</h3>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star-o"></i>
-                            </div>
-
-                        </div>
-                        <div class="reviews-col">
-                            <img src="./images/user3.webp">
-                            <div>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ducimus eligendi saepe beatae quod corrupti inventore, repudiandae autem a placeat, deserunt enim vero atque? Expedita voluptas aliquam numquam aliquid nulla!</p>
-                                <h3>Microsoft Sam</h3>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star"></i>
-                                <i class="fa fa-star-half-o"></i>
-                            </div>
-
-                        </div>
-                    </div>
-
-                </section>
-                
-                <!-- call to action button-->
-                <section class="cta">
-                    <h1>Become a member today!</h1>
-                    <a href="" class="hero-btn">Contact us</a>
-                </section>
-
-                <!-- footer -->
-
-                <section class="footer">
-                    <h4> About Us</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur delectus, at reprehenderit rerum ex sed velit nisi dolores numquam<br>commodi quas alias ab odit praesentium itaque voluptatum quod maiores molestias?</p>
-                    <div class="icons">
-                        <i class="fa-brands fa-facebook-f"></i>
-                        <i class="fa-brands fa-twitter"></i>
-                        <i class="fa-brands fa-instagram"></i>
-                        <i class="fa-brands fa-linkedin-in"></i>
-                        
-                    </div>
-
-
-
-                </section>
-
-        
-
-        <!-- Javascript code for menu on mobile -->
+    
+    
+    
+                    </section>
+    
+            
+    
+            <!-- Javascript code for menu on mobile -->
+          
     <script>
+    
+        // Function to show the menu
 
+function toggleMenu() {
+    var navLinks = document.getElementById("navLinks");
+    if (navLinks.style.right === "0px") {
+        navLinks.style.right = "-200px"; // Adjust this value based on your CSS
+    } else {
+        navLinks.style.right = "0px";
+    }
+}
 function showMenu() {
   document.getElementById("navLinks").classList.add("open");
 }
@@ -266,14 +447,15 @@ function showMenu() {
 function hideMenu() {
   document.getElementById("navLinks").classList.remove("open");
 }
+// Attach toggleMenu function to both icons
+document.querySelector(".fa-bars").addEventListener("click", toggleMenu);
+document.querySelector(".fa-times").addEventListener("click", toggleMenu);
 
-        var navLinks = document.getElementById("navLinks");
-        function showMenu() {
-            navLinks.style.right ="0";           
-        }
-        function hideMenu(){
-            navLinks.style.right = "-200px";
-        }
     </script>
-</body>
-</html>
+        
+    
+    
+    
+            
+    </body>
+    </html>
