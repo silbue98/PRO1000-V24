@@ -1,572 +1,1408 @@
 * {
-   margin: 0;
-   padding: 0;
-   font-family: 'Poppins', sans-serif;
-
-}
-
-:root{
-   --primaryColor: #0e6253;
-   --secondaryColor: #f44336;
-   --whiteColor: #fff;
-   --blackColor: #222;
-   --darkGreyColor: #a7a7a7;
-   --softGreenColor: #d9f2ee;
-   --greyColor: #f5f5f5;
-
-}
-
-
-/* Header styling with background image */
-.header {
-   min-height: 100vh;
-   width: 100%;
-   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./images/cover1.webp);
-   background-position: center;
-   background-size: cover;
-   position: relative;
-}
-
-body, html {
-   width: 100%;
-   overflow-x: hidden; /* Prevent horizontal scroll at the page level */
-}
-
-nav {
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   width: 100%;
-   padding: var(--default-gap);
-}
-nav img {
-   max-height: 70px;
-}
-
-/* Styling for navigation links */
-.nav-links {
-   text-align: center;
-   
-}
-
-
-.nav-button {
-   display: inline-block;
-   padding: 8px 12px;
-   position: relative;
-}
-
-
-.nav-button > a {
-   color: #fff;
-   text-decoration:  none;
-   font-size: 13px;
-}
-
-.nav-button::after {
-   content: '';
-   width: 0;
-   height: 2px;
-   background: #f44336;
-   display: block;
-   margin: auto;
-   transition: 0.5s;
-}
-
-.nav-button:hover::after{
-   width: 100%;
-}
-
-
-.text-box {
-   width: 90%;
-   color: #fff;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
-   text-align: center;
-}
-
-.text-box h1{
-   font-size: 62px;
-
-}
-.text-box p{
-   margin: 10px 0 40px;
-   font-size: 14px;
-   color: #fff;
-
-}
-
-.hero-btn {
-   display: inline-block;
-   text-decoration: none;
-   color: #fff;
-   border: 1px solid #fff;
-   padding: 12px 34px;
-   font-size: 13px;
-   background: transparent;
-   position: relative;
-   cursor: pointer;
-}
-
-.hero-btn:hover {
-   border: 1px solid #f44336;
-   background: #f44336;
-   transition: 1s;
-}
-
-/* Hiding the font icons on non-mobile devices */
-nav .fa{
-   display: none;
-
-}
-
-
-
-
-.membership {
-   width: 80%;
-   margin: auto;
-   text-align: center;
-   padding-top: 100px;
-   overflow-x: hidden; /* Hide horizontal scrollbar specifically for the Membership section */
-
-}
-
-h1 {
-   font-size: 36px;
-   font-weight: 600;
-}
-p {
-   color: #777;
-   font-size: 14px;
-   font-weight: 300;
-   line-height: 22px;
-   padding: 10px;
-
-
-}
-
-.row {
-   margin-top: 5%;
-   display: flex;
-   justify-content: space-between;
-   
-}
-
-
-/* Not added yet */
-.picture-col {
-   flex-basis: 31%;
-   background: #fff3f3;
-   border-radius: 10px;
-   margin-bottom: 5%;
-   padding: 2;
-   box-sizing: border-box;
-   transition: 0.5s;
-
-}
-
-.picture-col:hover{
-   box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
-}
-
-h3{
-   text-align: center;
-   font-weight: 600;
-   margin: 10px 0;
-}
-
-/* Facilities */
-
-.facility {
-   width: 80%;
-   margin: auto;
-   text-align: center;
-   padding-top: 50px;
-
-}
-
-.facility-col {
-   flex-basis: 32%;
-   border-radius: 10px;
-   margin-bottom: 30px;
-   position: relative;
-   overflow: hidden;
-}
-
-.facility-col img {
-   width: 100%;
-   display: block;
-
-}
-
-.layer {
-   background: transparent;
-   height: 100%;
-   width: 100%;
-   position: absolute;
-   top: 0;
-   left: 0;
-   transition: 0.5s;
-
-}
-
-/* layer of facility pictures when hovering
- * Need to change the color to a smoother and more viable color */
-
-.layer:hover {
-   background: rgba(226,0,0,0.7);
-}
-
-.layer h3{
-   width: 100%;
-   font-weight: 500;
-   color: #fff;
-   font-size: 26px;
-   bottom: 0;
-   left: 50%;
-   transform: translateX(-50%);
-   position: absolute;
-   opacity: 0;
-   transition: opacity 0.5s, bottom 0.5s; /* Add transition for opacity and bottom */
-
-}
-
-.layer:hover h3 {
-   bottom: 49%;
-   opacity: 1;
-}
-
-/* amenities */
-
-/* Needs Media screen fixing */
-.amenities {
-   width: 80%;
-   margin: auto;
-   text-align: center;
-   padding-top: 100px;
-
-}
-
-/* Needs Media screen fixing */
-.amenities-col {
-   flex-basis: 31%;
-   border-radius: 10px;
-   margin-bottom: 5%;
-   text-align: left;
-
-}
-
-/* Needs Media screen fixing */
-.amenities-col img {
-   width: 100%;
-   border-radius: 10px;
-
-}
-
-/* Needs Media screen fixing */
-.amenities-col p {
-   padding: 0;
-}
-
-/* Needs Media screen fixing */
-.amenities-col h3 {
-   margin-top: 16px;
-   margin-bottom: 15px;
-   text-align: left;
-
-}
-
- /* Reviews and testimonials */
-
- .reviews {
-   width: 80%;
-   margin: auto;
-   padding-top: 100px;
-   text-align: center;
-
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box; /* Helps manage padding and borders within element dimensions */
+ }
+ 
+ 
+ 
+ 
+ :root{
+    --primaryColor: #0e6253;
+    --secondaryColor: #f44336;
+    --whiteColor: #fff;
+    --blackColor: #222;
+    --darkGreyColor: #a7a7a7;
+    --softGreenColor: #d9f2ee;
+    --greyColor: #f5f5f5;
+    --figmaBlueColor: rgb(49, 64, 80);
+    --figmaBlueDarkerColor: rgb(37, 53, 84);
+    --darkerBlueColor: rgba(4, 9, 30, 0.7);
+    --figmadeepDarkBlue: #1f283b; 
+ }
+ 
+ 
+ /* Header styling with background image */
+ .header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(./images/cover1.webp);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+ }
+ 
+ /* Need to fix this im using overflow, which is bad */
+ 
+ body, html {
+     width: 100%;
+     overflow-x: hidden; /* Prevent horizontal scroll */
+ }
+ 
+ 
+ nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+ }
+ nav img {
+    max-height: 70px;
+ }
+ 
+ /* Styling for navigation links */
+ .nav-links {
+    text-align: center;
+    
+ }
+ 
+ .nav-button {
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+ }
+ 
+ 
+ .nav-button > a {
+    color: #fff;
+    text-decoration:  none;
+    font-size: 13px;
+ }
+ 
+ .nav-button::after {
+    content: '';
+    width: 0;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+ }
+ 
+ .nav-button:hover::after{
+    width: 100%;
+ }
+ 
+ 
+ .text-box {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+ }
+ 
+ .text-box h1{
+    font-size: 62px;
+ 
+ }
+ .text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+ 
+ }
+ 
+ .hero-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: var(--figmadeepDarkBlue);
+    position: relative;
+    cursor: pointer;
+ }
+ 
+ .hero-btn:hover {
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+ }
+ 
+ /* Hiding the font icons on non-mobile devices */
+ nav .fa{
+    display: none;
+ 
+ }
+ 
+ .membership {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    overflow-x: hidden; /* Hide horizontal scrollbar specifically for the Membership section */
+ 
  }
 
-.reviews-col {
-   flex-basis: 44%;
-   border-radius: 10px;
-   margin-bottom: 5%;
-   text-align: left;
-   background: #fff3f3;
-   padding: 25px;
-   cursor: pointer;
-   display: flex;
-
-}
-
-/* Creating the user pictures smaller / giving it a round look */
-.reviews-col img{
-   height: 40px;
-   margin-left: 5px;
-   margin-right: 30px;
-   border-radius: 50%;
-}
-
-.reviews-col p {
-   padding: 0;
-
-}
-
-.reviews-col h3 {
-   margin-top: 15px;
-   text-align: left;
-}
-
-/* colors for star icons */
-
-.reviews-col .fa {
-   color: #f44336;
-}
-
-/* Call to action */
-
-.cta {
-   margin: 100px auto;
-   width: 80%;
-   background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(./images/rooms_multi2.webp);
-   background-position: center;
-   background-size: cover;
-   border-radius: 10px;
-   text-align: center;
-   padding: 100px 0;
-}
-
-.cta h1 {
-   color: #fff;
-   margin-bottom: 40px;
-   padding: 0;
-}
-
-.footer {
-   width: 100%;
-   text-align: center;
-   padding: 30px 0;
-
-}
-
-.footer h4 {
-   margin-bottom: 25px;
-   margin-top: 20px;
-   font-weight: 600;
-
-}
-
-/* Icons and colors need to fix */
-
-.icons .fa {
-   color: #f44336;
-   margin: 0 13px;
-   cursor: pointer;
-   padding: 18px 0;
-
-}
-
-.fa-heart-o {
-   color:#f44336
-}
-
-
-
-
-.container {
-   width: 100%;
-   min-height: 100vh;
-   background: #5d7aa7;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-}
-
-.container h2 {
-   color: #fff;
-   font-size: 32px;
-   padding: 20px 0;
-   text-align: center;
-}
- 
-.price-row {
-   display: grid;
-   grid-template-columns: repeat(5, 1fr); /* 5 equal columns for each plan */
-   grid-gap: 25px;
-   justify-content: center;
-   align-items: start; /* Aligns the start of the columns if one is longer */
-}
-
-.price-col {
-   background: #1f283b;
-   padding: 20px;
-   border-radius: 10px;
-   color: #fff;
-   text-align: center;
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between; /* Distributes space evenly */
-   height: 100%; /* Makes sure all columns are of equal height */
+ .membership p {
+   color: var(--blackColor); /* Black for high contrast and readability */
+   font-size: 16px; /* Slightly smaller font for a more elegant look */
+   font-weight: 400; /* Regular weight for easy reading */
+   line-height: 1.8; /* A bit more line spacing for a breathable layout */
+   max-width: 700px; /* Slightly narrower for focused reading */
+   margin: 20px auto; /* Vertically smaller margin for tighter layout, auto for horizontal centering */
+   padding: 15px 25px; /* Comfortable padding but not too chunky */
+   background-color: var(--whiteColor); /* Soft background to blend with the site’s palette */
+   border: none; /* Remove the border for a cleaner look */
+   border-radius: 5px; /* Subtly rounded corners for a modern feel */
+   box-shadow: none; /* Remove shadow for a flatter design, add if needed */
+   text-align: left; /* Left align for a more standard reading experience */
 }
 
 .price-col p {
-   font-size: 22px;
-   height: 60px; /* Adjusted for consistency */
-   display: flex;
-   align-items: center;
-   justify-content: center;
-}
+   color: var(--blackColor); /* A color that stands out but matches the theme */
+   font-size: 20px; /* Slightly reduced size for balance */
+   font-weight: 700; /* Bold for emphasis */
+   margin-bottom: 15px; /* Adjusted space for a tighter layout */
+   text-transform: capitalize; /* Capitalize each word for a formal look */
+   letter-spacing: normal; /* Default spacing for readability */
+   text-align: center; /* Center alignment to match the content flow */
+   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+ }
+ 
 
-.price-container {
-   display: flex;
-   justify-content: center;
-   align-items: baseline;
-   height: 80px; /* Adjust as needed for alignment */
-}
 
-.price-container h3 {
-   font-size: 44px;
-   font-weight: 500;
-   margin-right: 5px; /* Space between price and currency */
-}
 
-.price-container span,
-.time-span {
-   font-size: 16px;
-   display: block; /* Ensure it's on a new line */
-}
 
-.price-col ul {
-   text-align: left;
-   margin: 20px 0;
-   color: #ddd;
-   list-style: none;
+ 
+ h1 {
+    font-size: 36px;
+    font-weight: 600;
+ }
+ 
+ .row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    
+ }
+ 
+ /* picture look */
+ .picture-col {
+    flex-basis: 31%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 2;
+    box-sizing: border-box;
+    transition: 0.5s;
+ 
+ }
+ 
+ .picture-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+ }
+ 
+ h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+ }
+ 
+ /* Facilities */
+ 
+ .facility {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+ 
+ }
+ 
+ .facility-col {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+ }
+ 
+ .facility-col img {
+    width: 100%;
+    display: block;
+ 
+ }
+ 
+ .layer {
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+ 
+ }
+ 
+ /* layer of facility pictures when hovering
+  * Need to change the color to a smoother and more viable color, i think */
+ 
+ .layer:hover {
+    background: rgba(37, 53, 84, 0.7);
+ }
+ 
+ .layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.5s, bottom 0.5s; /* Add transition for opacity and bottom */
+ 
+ }
+ 
+ .layer:hover h3 {
+    bottom: 49%;
+    opacity: 1;
+ }
+ 
+ /* Amenities Section Styling */
+ .amenities {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    display: flex; 
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; 
+ }
+  
+  .amenities-row { 
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    justify-content: center; /* Center-align the amenities */
+    gap: 30px; /* Space between amenities */
+  }
+  
+  .amenities-col {
+    flex: 1; /* Flex grow */
+    max-width: 31%; /* Maximum width */
+    min-width: 250px; /* Minimum width to ensure responsiveness */
+    background: #fff; /* Background color for visibility */
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center; /* Center text for consistency */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* added some shadow for this */
+    padding: 20px; /* Padding for content inside */
+  }
+  
+  .amenities-col img {
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for the image */
+  }
+  
+  .amenities-col h3 {
+    margin-top: 16px;
+    margin-bottom: 15px;
+  }
+  
+  .amenities-col p {
+    padding: 0; /* Resets padding */
+  }
+  
+ 
+  
+  
+  /* Reviews and testimonials */
+ .reviews {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap as needed */
+    justify-content: center; /* Center items horizontally */
+    gap: 20px; /* Add some space between the review items */
+  }
+  
+  .reviews-col {
+    flex-basis: 44%; 
+    max-width: 44%; /* Ensure the max width matches flex-basis for consistency */
+    border-radius: 10px;
+    background:#fff3f3;
+    padding: 25px;
+    cursor: pointer;
+    display: flex; /* we use Flexbox for internal alignment */
+    flex-direction: column; /* Stack internal elements vertically */
+    align-items: center; /* Center align the content */
+    text-align: center; /* Ensuring text is centered */
+    margin: 0; /* Reset margin to use gap from the parent */
+  }
+  
+  /* Adjusting the user picture size and making it round */
+  .reviews-col img {
+    height: 40px; /* Adjust as needed */
+    width: 40px; /* Keep width and height equal for a perfect circle */
+    margin-right: 15px; /* Adjust based on layout */
+    border-radius: 50%; /* Fully rounded */
+    object-fit: cover; /* Ensure the image covers the area */
+  }
+  
+  .reviews-col h3 {
+    margin-top: 15px; 
+  }
+  
+ 
+  
+ 
+ /* colors for star icons */
+ 
+ .reviews-col .fa {
+    color: #f44336;
+ }
+ 
+ /* Call to action */
+ 
+ .cta {
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(./images/rooms_multi2.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+ }
+ 
+ .cta h1 {
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+ }
+ 
+ .footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+ 
+ }
+ 
+ .footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+ 
+ }
+ 
+ /* Icons and colors need to fix */
+ 
+ .icons .fa {
+    color: var(--secondaryColor);
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+ 
+ }
+ 
+ .fa-heart-o {
+    color: var(--secondaryColor)
+ }
+ 
+ /* Desk Card Styling with Figma Blue Background */
+ .price-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Responsive grid layout */
+    gap: 30px;
+    padding: 20px 0;
+    justify-content: center;
+ }
+  
+ .price-col {
+    background: var(--figmadeepDarkBlue);
+    color: var(--whiteColor);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for hover effect */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* This will push the footer content to the bottom */
+    height: 100%; /* Make sure the .price-col has a defined height to allow justify-content to work */
+ }
+  
+ .price-col button:hover {
+    background: var(--primaryColor); /* Red background on hover */
+    color: #fff; /* Keep text white to ensure visibility */
+    border: 1px solid var(--primaryColor); /* Darker red border on hover */
+}
+  
+ .price-col h3, .price-col p, .price-col ul, .price-col button {
+    margin-bottom: 30px; /* Consistent spacing */
+ }
+
+ .price-col ul {
+    padding-left: 20px; /* adds padding inside the list */
+    list-style: inside; /* positions the bullet point inside the content flow */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Align items to the top */
+    min-height: 150px; /* Adjust based on your content to ensure it's the same for all */
+    margin-bottom: 15px; /* Consistent spacing below the list */
+    list-style-type: none; /* Remove default markers */
+    padding-left: 0; /* Reset padding */
+    
 }
 
 .price-col ul li {
-   margin: 15px 0px;
+   position: relative; /* Establishes a positioning context */
+   padding-left: 24px; /* Provides space for the bullet */
+   margin-bottom: 10px; /* Adjust spacing between list items */
+   font-size: 14px; /* Adjusts the font size to be smaller */
+   line-height: 1.5; /* Increases line height for better readability */
+   color: var(--whiteColor); /* Adjust the color if needed for better contrast */
 }
 
-.price-col ul li::before {
-   content: '\2022';
-   color: #e33058;
-   font-weight: bold;
-   margin-right: 8px;
-}
+
 
 .price-col button {
-   padding: 14px 0;
-   background: transparent;
-   color: #fff;
-   font-size: 15px;
-   border: 1px solid #e33058;
-   border-radius: 6px;
+   width: 60%; /* Adjust width to your preference */
+   margin: 20px auto; /* Center the button horizontally */
+   display: block; /* Block display to respect the width and margin */
+   background: var(--secondaryColor);
+   color: var(--whiteColor);
+   border: none;
+   padding: 10px 0; /* Adjust padding vertically */
+   border-radius: 5px;
    cursor: pointer;
-   transition: background 0.5s;
-   width: 100%; /* Ensures button width is consistent */
-   margin-top: auto; /* Pushes button to the bottom */
+   transition: background-color 0.3s ease;
+}
+ .price-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   /* Add more styling as needed */
 }
 
-.price-col button:hover {
-   background: #e33058;
+.time-span {
+   display: block; /* Ensures the time-span appears on its own line */
+   min-height: 50px; /* Makes sure there is enough space between /Year /Month etc and the next line */
+   text-align: center; /* Centers the text */
 }
 
 
 
-/* Test for media device row */
-
-/* Updated media query */
-@media (max-width: 768px) {
+@media (min-width: 768px) {
    .price-row {
-       grid-template-columns: 1fr; /* Display a single column on smaller screens */
-   }
-
-   .price-col {
-       margin-bottom: 20px; /* Add some spacing between columns on smaller screens */
-   }
-
-   /* Adjust other styles as needed for smaller screens */
-   .price-container {
-       height: auto; /* Allow the height to adjust based on content */
-   }
-
-   /* Add a gap between each plan */
-   .price-row .price-col:not(:last-child) {
-      margin-bottom: 20px; /* Add space below each plan */
-   }
-
-   .price-container h3 {
-       font-size: 28px; /* Reduce font size for price */
-   }
-
-   .price-col p {
-       height: auto; /* Allow the height to adjust based on content */
-   }
-
-   .price-col ul {
-       margin: 10px 0; /* Reduce margin for list items */
-   }
-
-   .price-col button {
-       padding: 10px 0; /* Reduce button padding */
+       display: grid;
+       grid-template-columns: repeat(3, 1fr); /* Creates three columns */
+       gap: 30px; /* Adjust the gap as needed */
    }
 }
 
-@media (max-width: 700px) {
-   .reviews-col img {
-      margin-left: 0px;
-      margin-right: 15px;
-   }
-   
-   .cta h1 {
-      font-size: 24px;
-   }
-   .text-box h1{
-      font-size: 20px;
-   }
-   .nav-links {
-      position: absolute;
-      background: #f44336;
-      height: auto; /* Change height to auto */
-      width: 200px;
-      top: 0;
-      right: -200px;
-      text-align: left;
-      z-index: 2;
-      transition: 1s;
-      overflow: hidden; /* Add overflow: hidden to prevent content overflow */
+  
+  
+ /* Responsive Adjustments */
+ @media (max-width: 768px) {
+    .price-row {
+      grid-template-columns: 1fr; /* Single column layout for smaller screens */
+    }
+ }
+  
+ @media (max-width: 480px) {
+    .price-row {
+      gap: 15px; /* Reduced gap for very small screens */
     }
     
-    .nav-menu {
+    .price-col {
+      padding: 15px; /* Adjust padding */
+    }
+  
+    .price-col button {
+      padding: 8px 16px; /* Adjust button padding */
+    }
+ }
+ 
+ 
+ /* Seating Area and Status Indicators Styling */
+ .booking-selector {
+    background: var(--figmaBlueDarkerColor);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 95%;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .status {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .status .item {
+    padding: 5px 10px;
+    margin: 0 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: var(--whiteColor);
+    font-weight: 500;
+  }
+  
+  .status .item.available {
+    background-color: var(--figmaBlueColor); /* Available seats */
+  }
+  
+  .status .item.booked {
+    background-color: var(--secondaryColor); /* Booked seats */
+  }
+  
+  .status .item.selected {
+    background-color: var(--primaryColor); /* Selected seats */
+  }
+  
+  .all-seats {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(20px, 1fr));
+    gap: 5px;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .seat {
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    background: var(--darkGreyColor);
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .seat:hover {
+    transform: scale(1.1);
+  }
+  
+  .seat.booked {
+    background-color: var(--secondaryColor); /* Booked seats */
+    cursor: not-allowed;
+  }
+  
+  .seat.selected {
+    background-color: var(--primaryColor); /* Selected seats */
+  }
+  
+  /* Responsive Adjustments for Seating Area */
+  @media (max-width: 768px) {
+    .booking-selector {
+      padding: 15px;
+      max-width: 100%;
+    }
+  
+    .all-seats {
+      grid-template-columns: repeat(auto-fill, minmax(15px, 1fr));
+    }
+  
+    .seat {
+      width: 15px;
+      height: 15px;
+    }
+  }
+  
+ 
+  /* Dates Styling */
+ .dates {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 10px;
+   margin-bottom: 20px;
+ }
+ 
+ .dates-item {
+   background: var(--figmaBlueColor);
+   color: var(--whiteColor);
+   padding: 10px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s ease, transform 0.2s;
+ }
+ 
+ .dates-item:hover, .dates-item:active, .dates-item:focus {
+   background-color: var(--figmaBlueDarkerColor);
+   transform: translateY(-2px);
+ }
+ 
+ /* Rooms Selection Styling */
+ .rooms {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 10px;
+   margin-bottom: 20px;
+ }
+ 
+ .room {
+   background: var(--softGreenColor);
+   color: var(--blackColor);
+   padding: 10px 15px;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+ }
+ 
+ .room:hover, .room:active, .room:focus {
+   background-color: var(--greyColor);
+ }
+ 
+ /* Booking Button Styling */
+ .price button {
+   width: auto; /* Allows the button to adjust based on content size */
+   margin: 20px auto; /* Centers the button */
+   display: block; /* Ensures the button is block-level for margin to work */
+   background-color: var(--primaryColor);
+   color: var(--whiteColor);
+   border: none;
+   padding: 12px 30px;
+   border-radius: 5px;
+   font-size: 16px;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+ }
+ 
+ .price button:hover {
+    background-color: #f44336;
+ }
+ 
+ /* Responsive Adjustments */
+ @media (max-width: 768px) {
+   .dates, .rooms {
+     justify-content: space-around;
+   }
+ 
+   .dates-item, .room {
+     padding: 8px 12px;
+   }
+ 
+   .price button {
+     padding: 10px 20px;
+   }
+ }
+ 
+ /* Contact Information Styling */
+ .info-grid .grid-item {
+    background-color: var(--whiteColor); /* White background */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners for a modern look */
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+    margin-bottom: 20px; /* Space between items */
+ }
+ 
+ /* Headings inside Contact Information */
+ .info-grid .grid-item h3 {
+    margin-bottom: 10px; /* Space below headings */
+    color: var(--primaryColor); /* Use primary color for headings */
+ }
+ 
+ /* Text inside Contact Information */
+ .info-grid .grid-item p {
+    color: var(--blackColor); /* Standard text color for readability */
+ }
+ 
+ /* Adjust grid layout for contact information */
+ .info-grid .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); /* Responsive grid */
+    gap: 20px; /* Space between grid items */
+    padding: 0; /* Reset any padding if needed */
+ }
+ 
+ 
+ /* Contact Section Styling */
+ .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns for larger screens */
+    gap: 40px; /* Spacing between columns */
+    padding: 50px 0; /* Padding around the section */
+    align-items: center; /* Vertically align content in the grid */
+ }
+ 
+ .contact-info {
+    padding: 20px;
+    background: var(--figmaBlueColor); /* Using Figma blue for background */
+    color: var(--whiteColor); /* White text for contrast */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+ }
+ 
+ 
+ .contact-info h1 {
+    margin-bottom: 20px; /* Space below the section heading */
+ }
+ 
+ .contact-info p {
+    margin-bottom: 20px; /* Space between paragraphs */
+    line-height: 1.6; /* Improved readability */
+ }
+ 
+ .contact-info img {
+    width: 100%; /* Full width of the column */
+    border-radius: 10px; /* Consistent rounded corners */
+    margin-top: 20px; /* Space above the image */
+ }
+ 
+ .contact-form {
+    background: var(-); /* Soft green background for the form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+ 
+ .contact-form input[type="text"],
+ .contact-form input[type="email"],
+ .contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--darkGreyColor);
+    border-radius: 5px;
+    font-size: 16px; /* Larger font size for better readability */
+ }
+ 
+ .contact-form button.submit-btn {
+    background-color: var(--secondaryColor); /* Red background for the button */
+    color: var(--whiteColor);
+    border: none;
+    padding: 15px;
+    font-size: 18px; /* Larger font size for visibility */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+ }
+ 
+ .contact-form button.submit-btn:hover {
+    background-color: var(--figmaBlueDarkerColor)
+ }
+ 
+ 
+ 
+ /* About Us Section Styles */
+ .about-us {
+    padding: 50px 0;
+    text-align: center; /* Center content for a professional look */
+    background-color: var(--figmaBlueColor); /* Figma blue background for theme consistency */
+    color: var(--whiteColor); /* Ensure text is readable on the dark background */
+ }
+ 
+ .about-us-col {
+   text-align: center; /* Centers the text */
+   padding: 20px; /* Adds padding around the text for better readability */
+   margin: auto; /* Centers the container if it has a specified width */
+   max-width: 800px; /*limits the width of the container for large screens */
+ }
+ 
+ .about-us-col h1, .about-us-col p {
+   margin-bottom: 20px; /* Adds space below each element */
+ }
+ .about-us h1 {
+    margin-bottom: 30px; /* Spacing below the heading */
+    color: var(--whiteColor); /* White color for the title */
+ }
+ 
+ .about-us p {
+    max-width: 800px; /* Max width for readability */
+    margin: 0 auto 40px; /* Centering and spacing */
+    color: var(--softGreenColor); /* Soft green for a pop of color and readability */
+    line-height: 1.6; /* Line height for better readability */
+ }
+ 
+ .about-us img {
+    max-width: 100%; /* Responsive image width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Rounded corners for a modern look */
+    margin-bottom: 30px; /* Space below image */
+ }
+ 
+ 
+ 
+  /* About Us Section Enhancements */
+ .info-grid .container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+ }
+ 
+ .info-grid .grid-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    text-align: center; /* Center align the text */
+    max-width: 200px; /* Adjust the max-width as needed */
+ }
+ 
+ .info-grid .about-us-col, .info-grid .grid {
+    margin: 20px;
+    padding: 20px;
+    background-color: var(--figmaBlueDarkerColor);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+ }
+ 
+ .info-grid img {
+ 
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px; /* Add space below the image */
+    border-radius: 10px;
+    display: block; /* This makes the image a block-level element */
+    margin-left: auto; /* These two margin settings center the image horizontally */
+    margin-right: auto;
+ }
+ 
+ .info-grid .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    text-align: left;
+ }
+ 
+ .info-grid h1, .info-grid h2, .info-grid h3, .info-grid p {
+    color: var(--whiteColor);
+ }
+ 
+ 
+ .contact-form textarea {
+    width: 100%; /* Full width to match other form elements */
+    height: 350px; /* Increased height for longer texts */
+    padding: 12px; /* Padding inside the textarea for text */
+    border: 1px solid var(--darkGreyColor); /* Border to match the design */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Comfortable font size for reading and writing */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a slight shadow for depth */
+    margin: 10px 0; /* Space above and below */
+    resize: vertical; /* Allows the user to resize the textarea vertically */
+  }
+  .footer h1 {
+    font-size: 16px; /* Adjusted for visual consistency with paragraphs */
+    color: var(--blackColor); /* Optional: Adjust color to fit your design */
+    margin: 0 auto; /* Centers the text */
+    padding: 0 20px; /* Adds padding on the sides */
+    max-width: 800px; /* Limits width for large screens */
+    font-weight: normal; /* Makes it visually similar to paragraphs */
+ }
+ 
+ 
+ 
+ 
+  /* Media Query for Small Screens: Adjusting Amenities for Better Mobile Display */
+ @media (max-width: 768px) {
+    .amenities .row {
       display: flex;
-      flex-direction: column; /* Display menu items vertically */
-      padding-top: 20px; /* Optional: Add padding for spacing */
+      flex-direction: column; /* Stack the items vertically */
+      align-items: center; /* Center-align the items */
+    }
+  
+    .amenities-col {
+      width: 100%; /* Full width for smaller screens */
+      max-width: 400px; /* Maximum width to avoid too wide items */
+      margin-bottom: 20px; /* Space between stacked items */
+    }
+  
+    .amenities-col img {
+      max-width: 100%; /* Ensure images don't exceed their container */
+      height: auto; /* Maintain aspect ratio */
+    }
+  }
+ 
+  /* Media Query for Small Screens */
+ @media (max-width: 768px) {
+    .info-grid .container {
+        flex-direction: column;
+        align-items: center;
+    }
+ 
+    .info-grid .about-us-col, .info-grid .grid {
+        width: 100%;
+    }
+ }
+ 
+ /* Additional adjustments for very small screens */
+ @media (max-width: 480px) {
+    .info-grid {
+        padding: 20px 10px;
+    }
+    .info-grid .grid-item {
+        text-align: center;
+    }
+ }
+ 
+ /* Additional Media Query for Very Small Screens */
+ @media (max-width: 480px) {
+    .about-us {
+        padding: 30px 0; /* Reduce padding for very small screens */
+    }
+ 
+    .about-us img {
+        margin: 20px auto; /* Adjust image margin on very small screens */
+    }
+ }
+ 
+ /* Responsive Design Adjustments */
+ @media (max-width: 768px) {
+    .about-us p {
+        padding: 0 20px; /* Padding on smaller screens for edge-to-edge spacing */
+    }
+ 
+    .about-us h1 {
+        font-size: 24px; /* Adjust font size on smaller screens for consistency */
+    }
+ }
+ 
+ /* Responsive Adjustments */
+ @media (max-width: 768px) {
+    .contact-grid {
+        grid-template-columns: 1fr; /* Stack columns vertically on smaller screens */
+        padding: 20px;
+    }
+ 
+    .contact-info, .contact-form {
+        padding: 15px;
+    }
+ 
+    .contact-info img {
+        margin-top: 15px; /* Adjust spacing */
+    }
+ }
+ 
+  /* Ensure responsiveness for smaller screens */
+  @media (max-width: 768px) {
+    .reviews-col {
+      flex-basis: 80%; /* Make review items take more space on smaller screens */
+      max-width: 80%; /* Match max-width to flex-basis */
+    }
+  
+    .reviews {
+      gap: 10px; /* Reduce gap for smaller screens */
+    }
+  }
+ 
+  @media (max-width: 700px) {
+    .reviews-col img {
+       margin-left: 0px;
+       margin-right: 15px;
     }
     
-    .nav-links.open {
-      right: 0;
+    .cta h1 {
+       font-size: 24px;
+    }
+    .text-box h1{
+       font-size: 20px;
+    }
+    .nav-links {
+       position: absolute;
+       background: #f44336;
+       height: auto; /* Change height to auto */
+       width: 200px;
+       top: 0;
+       right: -200px;
+       text-align: left;
+       z-index: 2;
+       transition: 1s;
+       overflow: hidden; /* Add overflow: hidden to prevent content overflow sadly */
+     }
+     
+     .nav-menu {
+       display: flex;
+       flex-direction: column; /* Display menu items vertically */
+       padding-top: 20px; /* Add padding for spacing */
+       background: var(--figmadeepDarkBlue);
+     }
+     
+     .nav-links.open {
+       right: 0;
+     }
+     
+    nav .fa {
+       display: block;
+       color: #fff;
+       margin: 10px;
+       font-size: 22;
+       cursor: pointer;
+ 
+    }
+    .nav-links ul{
+       padding: 30px;
+ 
     }
     
-   nav .fa {
-      display: block;
-      color: #fff;
-      margin: 10px;
-      font-size: 22;
-      cursor: pointer;
+ }
+ 
+ @media (max-width: 768px) {
+    .info-grid {
+        display: flex;
+        justify-content: center; /* Horizontally centers the content */
+        padding: 20px;
+        background-color: rgba(4, 9, 30, 0.7); /* Maintains the dark blue background */
+    }
+    
+    .info-grid .about-us-col {
+        max-width: 90%; /* Set a max-width to maintain padding on the sides */
+        margin: 20px auto; /* Adds top and bottom margin while centering horizontally */
+        padding: 20px; /* Adds padding inside the blue box */
+        /* Rest of your styles */
+    }
+    
+    .info-grid img {
+        /* Adjust the image styles if needed */
+    }
+ }
+ 
+ /* Additional Media Query for Very Small Screens */
+ @media (max-width: 480px) {
+    .info-grid .about-us-col {
+        max-width: 100%; /* Allows the column to take full width of the screen */
+        margin: 10px auto; /* Adjust the margin for very small screens */
+        padding: 15px; /* Adjust the padding for very small screens */
+    }
+ }
+ 
+ 
+ /* Media Query for smaller screens */
+ @media (max-width: 768px) {
+    .info-grid .grid {
+        grid-template-columns: 1fr; /* Stack grid items on small screens */
+    }
+ }
+ 
+ /* Additional Media Query for very small screens */
+ @media (max-width: 480px) {
+    .info-grid .grid-item {
+        padding: 15px; /* Slightly smaller padding for very small screens */
+    }
+ }
+ 
+ 
+ /* Contact section adjustments for larger screens */
+ @media (min-width: 768px) {
+    .contact-grid {
+        display: flex;
+        justify-content: center;
+        align-items: start; /* Align items at the start of the container */
+        flex-wrap: wrap; /* Allow items to wrap */
+    }
+ 
+    .contact-info, .contact-form {
+        flex: 1; /* Allow both items to grow */
+        max-width: 50%; /* Limit width to half of the container */
+        margin: 10px; /* Add some space around */
+    }
+ 
+    .contact-info {
+        order: 1; /* Ensure this comes first */
+    }
+ 
+    .contact-form {
+        order: 2; /* Ensure form comes after contact info */
+        max-width: 450px; /* Limit form width to make it not too wide */
+        margin: auto; /* Center the form */
+    }
+ 
+    .contact-form form {
+        display: flex;
+        flex-direction: column;
+        align-items: center; /* Center form elements */
+    }
+ 
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea,
+    .contact-form button.submit-btn {
+        width: 100%; /* Full width of their container */
+        margin: 10px 0; /* Margin for spacing */
+    }
+ }
+ 
+ /* Adjustments for very large screens */
+ @media (min-width: 1024px) {
+    .contact-info, .contact-form {
+        max-width: 40%; /* Further reduce max width for larger screens */
+    }
+    
 
+ }
+
+ @media (min-width: 1400px) {
+ .price-col ul li::before {
+   left: 40px; /* Increase from 0 to push the marker to the right */
    }
-   .nav-links ul{
-      padding: 30px;
 
+   .price-row {
+      grid-template-columns: repeat(3, 1fr); /* Maintain 3 columns, but they will be slimmer due to larger screen size */
+      gap: 20px; /* Increase gap between columns if needed */
+    }
+  
+    .price-col {
+      padding: 60px; /* Increase padding to make the card appear taller */
+      /* Optionally adjust the height directly if the content allows */
+     /* height: 700px; */
+    }
    }
-   
-}
 
 
-
-
-
+    @media (min-width: 1280px) {
+      .price-col ul li::before {
+        left: 20px; /* Adjust the position of the bullet point to the right */
+      }
+    
+      .price-row {
+        grid-template-columns: repeat(3, 1fr); /* Maintain a three-column layout */
+        gap: 20px; /* Adjust gap if necessary */
+      }
+      
+      .price-col {
+        padding: 10px; /* Adjust padding to affect the card's dimensions */
+        /* Optionally adjust the height directly if the content allows */
+        /* height: 600px; Increase or decrease based on your design needs */
+      }
+    }
+  
+ 
+ /* Seat Status Indicators Enhancements */
+ .seat-indicator-container {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+ }
+ 
+ .seat-indicator span {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+ }
+ 
+ .available span {
+    background-color: var(--figmaBlueColor); /* Figma Blue for Available */
+ }
+ 
+ .booked span {
+    background-color: #f44336; /* Soft Red for Booked */
+ }
+ 
+ .selected span {
+    background-color: #4CAF50; /* Green for Selected */
+ }
+ 
+ /* Booking Container and Seat Styles */
+ .booking-container {
+    padding: 20px;
+    background-color: #fff; /* Keep it clean */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .seat {
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    border-radius: 4px;
+    background-color: #ddd; /* Default seat color */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+ }
+ 
+ .seat:hover:not(.booked) {
+    background-color: var(--figmaBlueColor); /* Highlight on hover */
+ }
+ 
+ .seat.selected {
+    background-color: var(--figmaBlueColor); /* Figma Blue for Selected */
+ }
+ 
+ .seat.booked {
+    background-color: #f44336; /* Soft Red for Booked */
+    cursor: not-allowed;
+ }
+ 
+ @media (max-width: 768px) {
+    .seat-indicator-container {
+        flex-direction: column;
+        align-items: center;
+    }
+ 
+    .seat {
+        width: 15px;
+        height: 15px;
+    }
+ }
+ 
+ 
+ /* Seat Status Indicators Adjustment */
+ .seat-indicator {
+    display: flex;
+    align-items: center; /* Ensure vertical alignment */
+    gap: 10px; /* Space between circle and text */
+ }
+ 
+ .available span {
+    background-color: #eee; /* Neutral Grey for Available */
+ }
+ 
+ .booked span {
+    background-color: #f44336; /* Soft Red for Booked */
+ }
+ 
+ .selected span {
+    background-color: var(--primaryColor); /* Use primary color for selected, ensuring it stands out */
+ }
+ 
+ 
+ /* "Book Now" Button Styling */
+ .booking-btn {
+    background-color: var(--primaryColor); /* Figma Blue */
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    outline: none; /* Remove outline for a clean look */
+ }
+ 
+ .booking-btn:hover, .booking-btn:focus {
+    background-color: var(--secondaryColor); /* Slightly lighter Figma Blue on hover/focus */
+    transform: scale(1.05); /* Slight enlargement for interaction feedback */
+ }
+ 
+ .seat-status-indicator {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Align items vertically */
+ }
+ 
+ /* Booking Summary and Button Spacing */
+ .booking-summary {
+    margin-top: 20px; /* Add space above the booking summary */
+ }
+ 
+ .date-selection {
+    margin-top: 20px; /* Add space above the date selection to avoid overlap */
+ }
+ 
+ /* Adjustments for Date Selection */
+ .timings {
+    text-align: center; /* Center align the content */
+    padding: 10px 0; /* Add padding above and below for space */
+    border-top: 1px solid #ddd; /* Add a subtle line to separate from the booking button */
+ }
+ 
+ .dates-item {
+    padding: 5px 10px; /* Padding within each date item */
+    margin: 5px; /* Margin around each date item for spacing */
+ }
+ 
+ 
+ /* Date Selection Styling */
+ .date-selection {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  /* Timings Styling */
+  .timings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  /* Individual Date Item Styling */
+  .dates-item {
+    background: var(--softGreenColor);
+    color: var(--blackColor);
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px; /* Adds spacing between rows of dates */
+  }
+  
+  /* Styling for Radio Buttons - Hidden */
+  .dates input[type='radio'] {
+    display: none;
+  }
+  
+  /* Styling for Labels Corresponding to Radio Buttons */
+  .dates label {
+    cursor: pointer;
+  }
+  
+  /* Hover and Active States Styling */
+  .dates label:hover, .dates input[type='radio']:checked + label {
+    background-color: var(--primaryColor);
+    color: var(--whiteColor);
+  }
+  
+  /* Adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .dates-item {
+      padding: 8px 12px; /* Slightly smaller padding on smaller screens */
+      margin: 5px; /* Less margin on smaller screens */
+      font-size: 14px; /* Smaller font size to fit on mobile screens */
+    }
+  
+    .timings {
+      padding: 10px; /* Padding to ensure space on smaller screens */
+    }
+  }
+  
+  /* Ensure Book Now button is centered and not too close to date selection */
+  .booking-btn {
+    display: block;
+    width: max-content; /* Button width matches content width */
+    margin: 20px auto; /* Center the button and add space around it */
+    padding: 12px 30px; /* Padding inside the button */
+  }
+  
+ 
+  @media (min-width: 768px) {
+    .booking-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+ 
+    .booking-container {
+        max-width: 600px; /* Adjust based on the total width you prefer */
+        margin: auto;
+    }
+ 
+    .all-seats {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(20px, 1fr)); /* Adjust '20px' to your seat's width */
+        gap: 5px; /* Adjust based on your preference */
+        justify-content: center;
+    }
+ 
+    .booking-summary,
+    .seat-status-descriptions,
+    .date-selection {
+        text-align: center;
+    }
+ 
+    .booking-btn {
+        margin-top: 20px;
+    }
+ }
+ 
+ 
