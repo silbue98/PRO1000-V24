@@ -302,13 +302,11 @@ h3{
    transition: opacity 0.5s, bottom 0.5s;
   /* Add transition for opacity and bottom */
 }
-.layer:hover h3 {
-   bottom: 49%;
-   opacity: 1;
-}
+
 .layer:hover h2 {
    bottom: 49%;
    opacity: 1;
+   color: #fff;
 }
 /* Amenities Section Styling */
 .amenities {
@@ -760,17 +758,7 @@ h3{
    background-color: #f44336;
   /* A slightly darker shade for interaction */
 }
-/* Responsive Adjustments */
-@media (max-width: 768px) {
-   .booking-system-container {
-       padding: 20px;
-       flex-direction: column;
-  }
-   .seat {
-       width: 15px;
-       height: 15px;
-  }
-}
+
 /* Contact Section Styling */
 .contact-grid {
    display: grid;
@@ -1069,12 +1057,13 @@ h3{
        height: 50px;
       /* Maintain aspect ratio */
   }
-   .reviews-col h3, .reviews-col p, .reviews-col .fa {
+   .reviews-col h2, .reviews-col p, .reviews-col .fa {
       /* Text alignment and sizing */
        text-align: center;
       /* Center align text for consistency */
        margin: 5px 0;
       /* Tighten margin for a compact layout */
+
   }
    .reviews-col p {
       /* Review text adjustments */
@@ -1489,21 +1478,7 @@ h3{
    background-color: var(--primaryColor);
    color: var(--whiteColor);
 }
-/* Adjustments for smaller screens */
-@media (max-width: 768px) {
-   .dates-item {
-       padding: 8px 12px;
-      /* Slightly smaller padding on smaller screens */
-       margin: 5px;
-      /* Less margin on smaller screens */
-       font-size: 14px;
-      /* Smaller font size to fit on mobile screens */
-  }
-   .timings {
-       padding: 10px;
-      /* Padding to ensure space on smaller screens */
-  }
-}
+
 /* Ensure Book Now button is centered and not too close to date selection */
 .booking-btn {
    display: block;
@@ -1605,14 +1580,14 @@ h3{
 .facility h2, .amenities h2, .reviews h2 {
   /* Adding other sections if they have similar styling needs */
    font-size: 18px;
-   color: #ffffff;
+   color: #000000;
    font-weight: normal;
 }
 /* Ensure that other general h2 styles do not interfere */
 h2 {
    font-size: 24px;
   /* General h2 size might be larger */
-   color: rgb(255, 255, 255);
+   color: rgb(0, 0, 0);
    font-weight: bold;
    margin-top: 20px;
    margin-bottom: 20px;
@@ -1808,6 +1783,11 @@ img {
    margin: 5px 0;
   /* Adjust spacing as needed */
 }
+
+.reviews h2 {
+   color: white; 
+}
+
 .booking-section {
    background: var(--figmadeepDarkBlue);
    padding: 40px;
@@ -1914,6 +1894,9 @@ img {
 .booked {
    background-color: #f44336;
 }
+
+
+
 /* Adjust to match your booked seat color */
 .reviews-col .stars::after {
    content: '';
@@ -2241,5 +2224,33 @@ img {
    .seat {
        width: 15px;
        height: 15px;
+  }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+   .booking-system-container {
+       padding: 20px;
+       flex-direction: column;
+  }
+   .seat {
+       width: 15px;
+       height: 15px;
+  }
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+   .dates-item {
+       padding: 8px 12px;
+      /* Slightly smaller padding on smaller screens */
+       margin: 5px;
+      /* Less margin on smaller screens */
+       font-size: 14px;
+      /* Smaller font size to fit on mobile screens */
+  }
+   .timings {
+       padding: 10px;
+      /* Padding to ensure space on smaller screens */
   }
 }
