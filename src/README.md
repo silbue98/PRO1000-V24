@@ -41,7 +41,7 @@ To explore the prototype locally using Git Bash:
 
 You can also explore the prototype online at the following URL:
 
-[View Website](https://arcanix.no/USN/)
+[View Website](https://arcanix.no/coworking/)
 
 
 ## Conclusion
