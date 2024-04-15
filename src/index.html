@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>USN Start</title>
+      <!-- Link to external stylesheet and fonts -->
+      <link rel="stylesheet" href="style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <link rel="icon" type="image/x-icon" href="favicon.ico">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+   </head>
+   <body>
+      <script src="script.js" defer></script>
+      <section class="header">
+         <!-- Navigation bar -->
+         <nav>
+            <a href="index.html"><img src="./images/logo2.webp" alt="USN Co-Working Space Logo"></a>
+            <i class="fa fa-bars" onclick="showMenu()"></i> <!-- Hamburger Icon outside nav-links -->
+            <div class="nav-links" id="navLinks">
+               <div class="nav-menu">
+                  <i class="fa fa-times" onclick="hideMenu()"></i>
+                  <span class="nav-button"><a href="#">Home</a></span>
+                  <span class="nav-button"><a href="#membership">Membership Plans</a></span>
+                  <span class="nav-button"><a href="#booking">Booking</a></span>
+                  <span class="nav-button"><a href="#contact-info">About</a></span>
+                  <span class="nav-button"><a href="#contact-info">Contact</a></span>
+               </div>
+            </div>
+         </nav>
+         <div class="text-box">
+            <h1>USN CO Working Space.</h1>
+            <p> Innovative solutions for your working space.</p>
+            <a href="" class="hero-btn">Book your desk</a>
+         </div>
+      </section>
+      <!-- Membership Section -->
+      <section class="membership" id="membership">
+         <h1>Our Membership plans</h1>
+         <p>Explore the variety of membership options at USN Co-Working Space, each thoughtfully designed to match your work style and business needs. From flexible day passes for those on the move to dedicated desks and private offices for individuals and teams seeking a permanent base, we have you covered.</p>
+         <div class="container">
+            <!-- Pricing options -->
+            <h2>Choose your plan</h2>
+            <div class="price-row">
+               <div class="price-col">
+                  <!-- Pricing details for Day Pass -->
+                  <p>Day Pass</p>
+                  <div class="price-container">
+                     <h3>699 <span>NOK</span></h3>
+                     <span class="time-span">/ Day</span>
+                  </div>
+                  <ul>
+                     <li>24-hour access to facility.</li>
+                     <li>Access to co-working space.</li>
+                     <li>Access to our gym facilities.</li>
+                     <li>Access to secure 100gb/s WIFI.</li>
+                     <li>Access to recreational areas.</li>
+                     <li>Access to parking space.</li>
+                  </ul>
+                  <button>Add To Cart</button>
+               </div>
+               <div class="price-col">
+                  <!-- Pricing details for Monthly Pass -->
+                  <p>Monthly pass</p>
+                  <div class="price-container">
+                     <h3>6000 <span>NOK</span></h3>
+                     <span class="time-span">/ Month</span>
+                  </div>
+                  <ul>
+                     <li>Unlimited access to facility.</li>
+                     <li>Access to co-working area.</li>
+                     <li>Access to our gym facilities.</li>
+                     <li>Access to secure 100gb/s WIFI.</li>
+                     <li>Access to recreational areas.</li>
+                     <li>Access to parking space.</li>
+                  </ul>
+                  <button>Add To Cart</button>
+               </div>
+               <div class="price-col">
+                  <!-- Pricing details for Student Pass -->
+                  <p>Student pass</p>
+                  <div class="price-container">
+                     <h3>9000 <span>NOK</span></h3>
+                     <span class="time-span">/ Semester</span>
+                  </div>
+                  <ul>
+                     <li>Unlimited access to facility.</li>
+                     <li>Access to co-working area.</li>
+                     <li>Access to gym facilities.</li>
+                     <li>Access to secure 100gb/s WIFI.</li>
+                     <li>Access to recreational areas.</li>
+                     <li>Access to parking space.</li>
+                  </ul>
+                  <button>Add To Cart</button>
+               </div>
+               <div class="price-col">
+                  <!-- Pricing details for Annual Reserved Desk -->
+                  <p>Annual Reserved Desk</p>
+                  <div class="price-container">
+                     <h3>50,000 <span>NOK</span></h3>
+                     <span class="time-span">/ Year</span>
+                  </div>
+                  <ul>
+                     <li>Personal desk in shared office area.</li>
+                     <li>Unlimited access to facility.</li>
+                     <li>Access to co-working area.</li>
+                     <li>Access to our gym facilities.</li>
+                     <li>Access to secure 100gb/s WIFI.</li>
+                     <li>Access to recreational areas.</li>
+                     <li>Access to parking space.</li>
+                  </ul>
+                  <button>Add To Cart</button>
+               </div>
+               <div class="price-col">
+                  <!-- Pricing details for Private Office Desk -->
+                  <p>Private Office Desk</p>
+                  <div class="price-container">
+                     <h3>20,000 <span>NOK</span></h3>
+                     <span class="time-span">/ Month</span>
+                  </div>
+                  <ul>
+                     <li>Personal desk in a private office.</li>
+                     <li>Unlimited access to facility.</li>
+                     <li>Access to co-working area.</li>
+                     <li>Access to our gym facilities.</li>
+                     <li>Access to secure 100gb/s WIFI.</li>
+                     <li>Access to recreational areas.</li>
+                     <li>Access to parking space.</li>
+                  </ul>
+                  <button>Add To Cart</button>
+               </div>
+               <div class="price-col">
+                  <!-- Pricing details for Private Office Desk -->
+                  <p>Private Office Desk</p>
+                  <div class="price-container">
+                     <h3>20,000 <span>NOK</span></h3>
+                     <span class="time-span">/ Month</span>
+                  </div>
+                  <ul>
+                     <li>Personal desk in a private office.</li>
+                     <li>Unlimited access to facility.</li>
+                     <li>Access to co-working area.</li>
+                     <li>Access to our gym facilities.</li>
+                     <li>Access to secure 100gb/s WIFI.</li>
+                     <li>Access to recreational areas.</li>
+                     <li>Access to parking space.</li>
+                  </ul>
+                  <button>Add To Cart</button>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!--- facilities  -->
+      <section class="facility" id="facilities">
+         <h1>Our facilities</h1>
+         <p>
+            At USN Co-Working Space, we offer state-of-the-art facilities designed to cater to your professional needs and enhance your working experience. Our space includes high-speed internet, modern meeting rooms equipped with video conferencing capabilities, private offices for individuals or teams, and open desk areas for flexible seating options. For your convenience, we provide on-site IT support, secure 24/7 access, and printing services. Our goal is to provide a productive and collaborative environment where you can grow your business and network with like-minded professionals
+         </p>
+         <div class="row">
+            <div class="facility-col">
+               <img src="./images/overview3.webp" alt="Coworking Space Overview">
+               <div class="layer">
+                  <h2>Coworking Space</h2>
+               </div>
+            </div>
+            <div class="facility-col">
+               <img src="./images/grouproom4.webp" alt="Picture of a grouproom">
+               <div class="layer">
+                  <h2>Group rooms</h2>
+               </div>
+            </div>
+            <div class="facility-col">
+               <img src="./images/workspace3.webp" alt="Coworking work space 3">
+               <div class="layer">
+                  <h2>Working areas</h2>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- More pictures / facilties / amenities i need to fix this -->
+      <section  class="amenities" id="amenities">
+         <h1> Our amenities</h1>
+         <p>Our amenities are designed to enhance productivity and relaxation, offering a balance between work and leisure. From fully-equipped workstations to recreational rooms, showers, and a gym, we cater to all aspects of our members' wellbeing. The cafe serves as a social hub, while the billiard room and cozy relaxation areas provide spaces for unwinding and networking. Our goal is to create an environment that supports our community's diverse needs, making USN Co-Working Space not just a place to work, but a place to thrive.</p>
+         <div class="row">
+            <div class="amenities-col">
+               <img src="./images/recreational3.webp" alt="Recreation area 1">
+               <h2> Recreational Areas</h2>
+               <p>Our cafe area serves as the perfect spot for a refreshing break or casual meetings, featuring an array of gourmet coffee and healthy snacks. It's a space where creativity flows, surrounded by inspiring art and comfortable seating.</p>
+            </div>
+            <div class="amenities-col">
+               <img src="./images/recreational2.webp" alt="Recreation area 2">
+               <h2> Recreational Areas</h2>
+               <p>The billiard room offers a unique blend of leisure and networking. Engage in friendly competition or unwind after hours. This area is designed to foster connections among members, making it more than just a place to play.</p>
+            </div>
+            <div class="amenities-col">
+               <img src="./images/recreational1.webp" alt="Recreation area 3">
+               <h2> Recreational Areas</h2>
+               <p>Discover our serene relaxation area, a sanctuary designed with cozy furniture and a warm atmosphere. It's the ideal setting for contemplation, reading, or simply enjoying a moment of tranquility away from your desk.</p>
+            </div>
+         </div>
+      </section>
+      <!-- Reviews -->
+      <section class="reviews" id="reviews">
+         <h1>Reviews</h1>
+         <p>Our reviews reflect the experiences of a vibrant community that values productivity, comfort, and collaboration. Members praise the seamless integration of work and leisure facilities, highlighting the positive impact on their daily routines and overall satisfaction. From the modern, well-equipped workspaces to the diverse amenities catering to relaxation and networking, feedback consistently points to an environment conducive to both individual focus and community engagement. These testimonials underscore our commitment to creating a supportive and enriching co-working space.</p>
+         <div class="row">
+            <div class="reviews-col">
+               <img src="./images/user2.webp" alt="Picture of User 1">
+               <div>
+                  <p>Joining USN Co-Working Space has transformed my work life. The blend of professional amenities with a warm, community vibe has made every workday something I look forward to. Whether I need a quiet corner for deep focus or a lively area to bounce ideas off fellow members, this place has it all. Their top-notch facilities, from the high-speed internet to the spacious meeting rooms, coupled with the incredible support staff, have elevated my productivity and expanded my professional network. It's more than just a workspace; it's where I've found a thriving community of innovative thinkers.</p>
+                  <div class="review">
+                     <h2>Sarah Johnson</h2>
+                     <div class="stars">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="reviews-col">
+               <img src="./images/user3.webp" alt="Picture of user 3">
+               <div>
+                  <p>Finding USN Co-Working Space was a game-changer for me. The perfect blend of quiet work areas and vibrant communal spaces fuels my creativity and efficiency. It's not just the ergonomic workstations or the state-of-the-art conference rooms that make it stand out; it's the sense of community. The staff goes above and beyond, making everyone feel welcome and fostering a network of diverse professionals. It's not just a place to work; it's a place to grow and thrive professionally.</p>
+                  <h2>Microsoft Sam</h2>
+                  <div class="stars">
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star"></i>
+                     <i class="fa fa-star-o"></i>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <section id="booking" class="booking-section">
+         <h1 class="section-title">Book Your Seat</h1>
+         <div class="booking-container">
+            <div class="seating-area" id="seatingArea">
+               <!-- Seats will be generated here via JavaScript -->
+            </div>
+            <div class="seat-legend">
+               <div>
+                  <span class="seat sample available"></span> Available
+               </div>
+               <div>
+                  <span class="seat sample selected"></span> Selected
+               </div>
+               <div>
+                  <span class="seat sample booked"></span> Booked
+               </div>
+            </div>
+            <div class="booking-summary">
+               <p>Total Seats Selected: <span id="totalSeats">0</span></p>
+               <p>Total Price: <span id="totalPrice">0 NOK</span></p>
+               <button class="booking-btn" id="bookNowBtn">Book Now</button>
+            </div>
+         </div>
+      </section>
+      <!--Contact Us-->
+      <section class="contact" id="contact">
+         <div class="contact-grid">
+            <div class="contact-info">
+               <h1>Contact Us</h1>
+               <p>We're always here to help you. Whether you have questions about our services, need support, or just want to give feedback, please don't hesitate to get in touch. Fill out the form below, and our team will get back to you as soon as possible.</p>
+               <img src="./images/maps1.png" alt="Our Location">
+            </div>
+            <div class="contact-form">
+               <form action="#" method="post">
+                  <!-- Name Field -->
+                  <label for="name">Your Name:</label>
+                  <input type="text" id="name" name="name" placeholder="Your Name" required>
+                  <!-- Email Field -->
+                  <label for="email">Your Email:</label>
+                  <input type="email" id="email" name="email" placeholder="Your Email" required>
+                  <!-- Message Field -->
+                  <label for="message">Your Message:</label>
+                  <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                  <button type="submit" class="submit-btn">Send Message</button>
+               </form>
+            </div>
+         </div>
+      </section>
+      <!-- About Us -->
+      <section class="info-grid" id="contact-info">
+         <div class="container">
+            <div class="about-us-col">
+               <h1>About Us</h1>
+               <p>At USN Co-Working Space, we are dedicated to providing a creative and supportive environment for freelancers, entrepreneurs, and professionals. Our state-of-the-art facilities are designed to foster collaboration, productivity, and growth.</p>
+               <img src="./images/workspace1.webp" alt="About Us">
+               <h2>Contact Information</h2>
+               <div class="grid">
+                  <div class="grid-item">
+                     <h3>Opening Hours</h3>
+                     <p>Monday - Friday: 9am to 5pm</p>
+                     <p>Saturday: 10am to 2pm</p>
+                     <p>Sunday: Closed</p>
+                  </div>
+                  <div class="grid-item">
+                     <h3>Phone Number</h3>
+                     <p>+123 456 7890</p>
+                  </div>
+                  <div class="grid-item">
+                     <h3>Email Address</h3>
+                     <p>contact@usncoworking.com</p>
+                  </div>
+                  <div class="grid-item">
+                     <h3>Location</h3>
+                     <p>Gullbringvegen 36, 3800 Bø</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- footer -->
+      <section class="footer">
+         <h1>Copyright &copy; 2024 USN Co-Working Space. All rights reserved.</h1>
+         <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+         </div>
+      </section>
+      <!-- Javascript code for menu on mobile -->
+   </body>
+</html>
