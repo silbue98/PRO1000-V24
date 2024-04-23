@@ -58,7 +58,7 @@ for (let row = 0; row < totalRows; row++) {
 function toggleMenu() {
     let navLinks = document.getElementById("navLinks");
     if (navLinks.style.right === "0px") {
-        navLinks.style.right = "-200px"; // Adjust this value based on your CSS
+        navLinks.style.right = "-200px"; 
     } else {
         navLinks.style.right = "0px";
     }
