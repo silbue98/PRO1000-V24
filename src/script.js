@@ -26,7 +26,7 @@ seatingArea.addEventListener("click", function(e) {
     }
 });
 
-// Dynamic seats creation (remains unchanged)
+// Dynamic seats creation
 const totalRows = 10; 
 const seatsPerRow = 10;
 for (let row = 0; row < totalRows; row++) {
