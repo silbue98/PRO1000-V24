@@ -13,9 +13,6 @@ This is an ongoing project. The source code within this directory is actively de
 - `/images/` - Contains all graphical content used across the website, such as logos and decorative elements.
 
 ## Quick Start
-To get started with this project locally:
-
-## Quick Start
 To explore the prototype locally using Git Bash:
 1. Clone the repository:
       ```bash
