@@ -3,7 +3,6 @@
    padding: 0;
    font-family: 'Poppins', sans-serif;
    box-sizing: border-box;
-  /* Helps manage padding and borders within element dimensions */
 }
 :root{
    --primaryColor: #0e6253;
@@ -29,11 +28,10 @@
    background-size: cover;
    position: relative;
 }
-/* Need to fix this im using overflow, which is bad */
+
 body, html {
    width: 100%;
    overflow-x: hidden;
-  /* Prevent horizontal scroll */
 }
 /* Menu */
 nav {
@@ -111,21 +109,15 @@ nav .fa{
 /* Membership Section / Cards */
 .membership h1 {
    color: #f5f5f5;
-  /* Light color for visibility against a dark background */
    font-size: 28px;
-  /* Large size for heading prominence */
    margin-bottom: 30px;
-  /* Space below the heading */
    text-align: center;
   /* Center the heading */
    background-color: var(--figmadeepDarkBlue);
-  /* Darker blue for strong contrast */
    padding: 20px;
-  /* Padding around the text */
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   /* Shadow for depth */
    border-bottom: 4px solid var(--lineRedColor);
-  /* Colored line for emphasis, using your predefined red color */
    display: block;
   /* Block display for full width */
 }
@@ -153,7 +145,6 @@ nav .fa{
    padding: 15px 25px;
   /* Comfortable padding but not too chunky */
    background-color: var(--whiteColor);
-  /* Soft background to blend with the site’s palette */
    border: none;
   /* Remove the border for a cleaner look */
    border-radius: 5px;
@@ -161,7 +152,6 @@ nav .fa{
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   /* shadow for depth */
    text-align: left;
-  /* Left align for a more standard reading experience */
 }
 .price-col p {
    color: #f5f5f5;
@@ -285,7 +275,7 @@ h3{
    left: 0;
    transition: 0.5s;
 }
-/* layer of facility pictures when hovering * Need to change the color to a smoother and more viable color, i think */
+/* layer of facility pictures when hovering. Need to change the color to a smoother and more viable color, i think */
 .layer:hover {
    background: rgba(37, 53, 84, 0.7);
 }
@@ -315,7 +305,6 @@ h3{
   /* This centers the section */
    text-align: center;
    padding-top: 100px;
-  /* Adjust based on your design needs */
 }
 .amenities-row {
    display: flex;
@@ -412,7 +401,6 @@ h3{
   /* Center the section */
    text-align: center;
    padding-top: 100px;
-  /* Adjust based on your design preference */
    overflow-x: hidden;
   /* In case of horizontal overflow */
 }
@@ -501,7 +489,6 @@ h3{
 .reviews-col h3 {
   /* Specifically targeting the reviewer names for center alignment */
    text-align: center;
-  /* This will center the names within their flex container */
    width: 100%;
   /* Ensures the h3 element spans the full width of its parent to properly center the text */
 }
@@ -566,9 +553,7 @@ h3{
    display: flex;
    flex-direction: column;
    justify-content: space-between;
-  /* This will push the footer content to the bottom */
    height: 100%;
-  /* Make sure the .price-col has a defined height to allow justify-content to work */
 }
 .price-col button:hover {
    background-color: #6d0606;
@@ -600,13 +585,10 @@ h3{
    justify-content: flex-start;
   /* Align items to the top */
    min-height: 150px;
-  /* Adjust based on your content to ensure it's the same for all */
    margin-bottom: 15px;
-  /* Consistent spacing below the list */
    list-style-type: none;
   /* Remove default markers */
    padding-left: 0;
-  /* Reset padding */
 }
 .price-col ul li {
    position: relative;
@@ -624,7 +606,6 @@ h3{
 }
 .price-col button {
    width: 60%;
-  /* Adjust width to your preference */
    margin: 20px auto;
   /* Center the button horizontally */
    display: block;
@@ -661,7 +642,6 @@ h3{
    border-radius: 15px;
    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
    max-width: 800px;
-  /* Adjust based on your layout needs */
    color: var(--whiteColor);
    display: flex;
    flex-direction: column;
@@ -806,11 +786,8 @@ h3{
    padding: 0 15px;
   /* Padding on the sides for a breathing room */
    background-color: rgba(0, 0, 0, 0.2);
-  /* Optional: subtle background for depth */
    border-left: 4px solid #e33058;
-  /* Optional: a colored line for emphasis */
    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  /* Optional: subtle shadow for depth */
 }
 .contact-info img {
    width: 100%;
@@ -929,7 +906,6 @@ h3{
    font-size: 16px;
   /* Adjusted for visual consistency with paragraphs */
    color: var(--blackColor);
-  /* Optional: Adjust color to fit your design */
    margin: 0 auto;
   /* Centers the text */
    padding: 0 20px;
@@ -1156,7 +1132,6 @@ h3{
        height: 50px;
       /* Adjust height to maintain aspect ratio */
        border-radius: 50%;
-      /* Optional: Keep the images circular */
   }
    .reviews-col h3, .reviews-col p, .reviews-col .fa {
       /* Ensuring text and icons align and fit well */
@@ -1166,11 +1141,8 @@ h3{
       /* Reduce margins for a compact layout */
   }
    .reviews-col p {
-      /* Adjusting paragraph styling to fit small screens */
        font-size: 14px;
-      /* Smaller font size for space efficiency */
        padding: 0 10px;
-      /* Padding to prevent text touching the edges */
        word-break: break-word;
       /* Prevents long words from causing overflow */
   }
@@ -1280,20 +1252,13 @@ h3{
 @media (min-width: 1400px) {
    .price-col ul li::before {
        left: 40px;
-      /* Increase from 0 to push the marker to the right */
   }
    .price-row {
        grid-template-columns: repeat(3, 1fr);
-      /* Maintain 3 columns, but they will be slimmer due to larger screen size */
        gap: 20px;
-      /* Increase gap between columns if needed */
   }
    .price-col {
        padding: 60px;
-      /* Increase padding to make the card appear taller */
-      /* Optionally adjust the height directly if the content allows */
-      /* height: 700px;
-       */
   }
 }
 @media (min-width: 1280px) {
@@ -1309,10 +1274,6 @@ h3{
   }
    .price-col {
        padding: 10px;
-      /* Adjust padding to affect the card's dimensions */
-      /* Optionally adjust the height directly if the content allows */
-      /* height: 600px;
-       Increase or decrease based on your design needs */
   }
 }
 /* Seat Status Indicators Enhancements */
@@ -1677,9 +1638,7 @@ h2 {
    background-color: var(--whiteColor);
   /* Sets a background color if needed */
    border-radius: 5px;
-  /* Optional: Adds rounded corners for a modern look */
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  /* Optional: Adds a shadow for depth */
    text-align: center;
   /* Centers the text within the paragraph */
 }
@@ -1689,7 +1648,6 @@ h2 {
    margin-bottom: 20px;
   /* Adjust space below the image */
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  /* Optional: Adds depth with a shadow */
 }
 /* Ensure images are responsive */
 img {
@@ -1733,15 +1691,12 @@ img {
    border-radius: 50%;
   /* Circular images */
    object-fit: cover;
-  /* Ensure the images cover the area */
 }
 .section-container {
    max-width: 1200px;
-  /* or any other value that suits your design */
    margin: auto;
   /* Center the container */
    padding: 20px;
-  /* Optional: to ensure content doesn't touch the edges */
 }
 .review {
    text-align: center;
@@ -1771,7 +1726,6 @@ img {
 }
 .reviews-col img {
    width: 80px;
-  /* Adjust based on your design */
    height: 80px;
   /* Maintain aspect ratio */
    border-radius: 50%;
@@ -1848,7 +1802,6 @@ img {
    background-color: #ddd;
   /* Light grey for available seats */
    border-radius: 50%;
-  /* Optional: makes seats look circular */
    cursor: pointer;
    transition: background-color 0.3s ease;
 }
@@ -1870,7 +1823,6 @@ img {
    justify-content: center;
    gap: 20px;
    margin-top: 20px;
-  /* Adjust as needed */
 }
 .seat-legend div {
    display: flex;
@@ -1881,31 +1833,23 @@ img {
    width: 20px;
    height: 20px;
    border-radius: 50%;
-  /* If you want them circular */
 }
 .available {
    background-color: #D1D8E0;
 }
-/* Adjust to match your available seat color */
 .selected {
    background-color: #4CAF50;
 }
-/* Adjust to match your selected seat color */
 .booked {
    background-color: #f44336;
 }
 
-
-
-/* Adjust to match your booked seat color */
 .reviews-col .stars::after {
    content: '';
    display: block;
    height: 4px;
    width: 100%;
-  /* Match the width to your preference */
    background-color: #e33058;
-  /* Adjust the color to match your theme */
    margin-top: 5px;
   /* Adjust spacing from the stars */
 }
@@ -2054,7 +1998,6 @@ img {
        margin-bottom: 10px;
       /* Minimize space between paragraphs */
        box-shadow: none;
-      /* Optional: remove shadow for a cleaner look */
   }
 }
 /* Responsive Adjustments */
@@ -2176,7 +2119,6 @@ img {
    .all-seats {
        display: grid;
        gap: 5px;
-      /* Adjust based on your preference */
        justify-content: center;
   }
    .booking-summary, .seat-status-descriptions, .date-selection {
@@ -2254,6 +2196,3 @@ img {
       /* Padding to ensure space on smaller screens */
   }
 }
-
-
-
