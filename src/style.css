@@ -1853,7 +1853,7 @@ img {
    transition: background-color 0.3s ease;
 }
 .seat:hover:not(.booked) {
-   background-color: #bbb;
+   background-color: var(--primaryColor);
   /* Slightly darker on hover */
 }
 .seat.booked {
@@ -2254,3 +2254,6 @@ img {
       /* Padding to ensure space on smaller screens */
   }
 }
+
+
+
