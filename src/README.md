@@ -1,7 +1,7 @@
 # USN Co-Working Space Website Source Code
 
 ## Introduction
-This `src` directory contains the source code for the USN Co-Working Space website. It includes HTML, CSS, and JavaScript files critical for building the digital representation of the USN Co-Working Space, providing an engaging and functional online environment for users.
+This `src` directory contains the latest source code for the USN Co-Working Space website. It includes HTML, CSS, and JavaScript files critical for building the digital representation of the USN Co-Working Space, providing an engaging and functional online environment for users.
 
 ## Project Status
 This is an ongoing project. The source code within this directory is actively developed, reflecting current design improvements and functionality enhancements based on continuous feedback integration.
